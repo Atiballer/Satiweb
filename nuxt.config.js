@@ -85,7 +85,7 @@ module.exports = {
 ** Router change
 */
   router: {
-    base: process.env.DEPLOY_ENV === "STATIC" ? "/Satiweb/" : "/"
+    base: "/dist/"
   },
 
   /*
