@@ -1,5 +1,7 @@
 const pkg = require("./package");
 
+const webpack = require("webpack");
+
 module.exports = {
   mode: "universal",
 
