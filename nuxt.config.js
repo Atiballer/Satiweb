@@ -90,10 +90,28 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: [
+      "babel-polyfill",
+      "jquery", //alias-bol jon extend-nel
+      "popper.js", //alias-bol jon extend-nel
+      "bootstrap" //alias-bol jon extend-nel
+    ],
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: "jquery", //alias-bol jon extend-nel
+        jQuery: "jquery", //alias-bol jon extend-nel
+        jquery: "jquery", //alias-bol jon extend-nel
+        "window.jQuery": "jquery" //alias-bol jon extend-nel
+      })
+    ],
     /*
       ** Run ESLint on save
       */
     extend(config, { isDev, isClient }) {
+      config.resolve.alias["jquery"] = "~/static/bootstrap/jquery.min.js";
+      config.resolve.alias["popper.js"] = "~/static/bootstrap/popper.min.js";
+      config.resolve.alias["bootstrap"] = "~/static/bootstrap/bootstrap.min.js";
+
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: "pre",
