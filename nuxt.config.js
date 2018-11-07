@@ -84,18 +84,7 @@ module.exports = {
   /*
 ** Router change
 */
-  router: {
-    base: "/dist/"
-  },
-
-  /*
-  ** Generate change
-  */
-  generate: {
-    minify: {
-      collapseWhitespace: false
-    }
-  },
+  router: {},
 
   /*
   ** Build configuration
