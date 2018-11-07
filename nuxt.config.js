@@ -81,8 +81,20 @@ module.exports = {
   */
   modules: [],
 
+  /*
+** Router change
+*/
   router: {
     base: process.env.DEPLOY_ENV === "STATIC" ? "/Satiweb/" : "/"
+  },
+
+  /*
+  ** Generate change
+  */
+  generate: {
+    minify: {
+      collapseWhitespace: false
+    }
   },
 
   /*
