@@ -81,17 +81,57 @@ module.exports = {
   */
   modules: [],
 
+  router: {
+    base: process.env.DEPLOY_ENV === "STATIC" ? "/Satiweb/" : "/"
+  },
+
   /*
   ** Build configuration
   */
   build: {
+    publicPath: "/assets/",
     /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {}
-  }
-};
+      ** Run ESLint on save
+      */
+    extend(config, { isDev, isClient }) {
+      if (isDev && isClient) {
+        config.module.rules.push({
+          enforce: "pre",
+          test: /\.(js|vue)$/,
+          loader: "eslint-loader",
+          exclude: /(node_modules)/
+        });
+      }
+    },
 
-export default {
-  router: {}
+    loaders: [
+      {
+        test: /\.(scss|sass|css)$/,
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader"
+          }
+        ]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        loader: "url-loader",
+        query: {
+          limit: 1000,
+          name: "img/[name].[hash:7].[ext]"
+        }
+      },
+      {
+        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+        loader: "url-loader",
+        query: {
+          limit: 1000,
+          name: "fonts/[name].[hash:7].[ext]"
+        }
+      }
+    ]
+  }
 };
