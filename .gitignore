@@ -1,0 +1,21 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+dist-ghpages
+
+# ide
+.idea
+.vscode
+
+\.DS_Store
+
+# .env
+.env
