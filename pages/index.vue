@@ -250,7 +250,7 @@
         <br>
       </div> -->
 
-      <section id="opinion"
+      <!-- <section id="opinion"
                class="bg-car py-5">
         <h2>Amit rólam mondtak</h2>
         <div class="container">
@@ -327,7 +327,7 @@
             </a>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section id="contact">
         <div class="container">
