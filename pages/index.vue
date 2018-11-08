@@ -327,67 +327,67 @@
       </div>
     </section>
 
-    <!-- <section id="contact">
-        <div class="container">
-          <h3 class="text-center text-uppercase">Lépj kapcsolatba velem</h3>
-          <p class="text-center w-75 m-auto">Keress bátran alábbi elérhetőségeimen! Megbeszéljük mik az elképzeléseid, hogyan is szeretnél
-            megjelenni online.</p>
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-              <div class="card3 border-0">
-                <div class="card-body text-center">
+    <section id="contact">
+      <div class="container">
+        <h3 class="text-center text-uppercase">Lépj kapcsolatba velem</h3>
+        <p class="text-center w-75 m-auto">Keress bátran alábbi elérhetőségeimen! Megbeszéljük mik az elképzeléseid, hogyan is szeretnél
+          megjelenni online.</p>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+            <div class="card3 border-0">
+              <div class="card-body text-center">
+                <img class="img"
+                     src="../assets/phone-call.svg"
+                     alt="Telefon">
+                <h4 class="text-uppercase mb-3 pt-3">Telefon</h4>
+                <h5>06-30/731-3591</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+            <div class="card3 border-0">
+              <div class="card-body text-center">
+                <img class="img"
+                     src="../assets/email.svg"
+                     alt="E-mail">
+
+                <h4 class="text-uppercase mb-3 pt-3">E-mail</h4>
+                <a href="mailto:info@satiweb.hu">
+                  <h5>info@satiweb.hu</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+            <div class="card3 border-0">
+              <div class="card-body text-center">
+                <a href="http://fb.me/Atiballer">
                   <img class="img"
-                       src="../assets/phone-call.svg"
-                       alt="Telefon">
-                  <h4 class="text-uppercase mb-3 pt-3">Telefon</h4>
-                  <h5>06-30/731-3591</h5>
-                </div>
+                       src="../assets/facebook.svg"
+                       alt="Facebook">
+                  <h4 class="text-uppercase mb-3 pt-3">Facebook</h4>
+                  <h5>Keress Facebookon</h5>
+                </a>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-              <div class="card3 border-0">
-                <div class="card-body text-center">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+            <div class="card3 border-0">
+              <div class="card-body text-center">
+                <a href="http://m.me/Atiballer">
                   <img class="img"
-                       src="../assets/email.svg"
-                       alt="E-mail">
-                  
-                  <h4 class="text-uppercase mb-3 pt-3">E-mail</h4>
-                  <a href="mailto:info@satiweb.hu">
-                    <h5>info@satiweb.hu</h5>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-              <div class="card3 border-0">
-                <div class="card-body text-center">
-                  <a href="http://fb.me/Atiballer">
-                    <img class="img"
-                         src="../assets/facebook.svg"
-                         alt="Facebook">
-                    <h4 class="text-uppercase mb-3 pt-3">Facebook</h4>
-                    <h5>Keress Facebookon</h5>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-              <div class="card3 border-0">
-                <div class="card-body text-center">
-                  <a href="http://m.me/Atiballer">
-                    <img class="img"
-                         src="../assets/messenger.svg"
-                         alt="Messenger">
-                   
-                    <h4 class="text-uppercase mb-3 pt-3">Messenger</h4>
-                    <h5>Írj Messengeren</h5>
-                  </a>
-                </div>
+                       src="../assets/messenger.svg"
+                       alt="Messenger">
+
+                  <h4 class="text-uppercase mb-3 pt-3">Messenger</h4>
+                  <h5>Írj Messengeren</h5>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </div>
+    </section>
 
   </main>
 </template>
