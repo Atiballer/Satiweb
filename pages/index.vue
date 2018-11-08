@@ -8,7 +8,7 @@
         data-offset="60"> -->
 
       <!-- Jumbotron -->
-      <!-- <div class="jumbotron jumbotron-fluid vertical-center">
+      <div class="jumbotron jumbotron-fluid vertical-center">
         <div class="container">
           <h1>Nincs még weboldalad?</h1>
           <p class="py-3">Nem találnak meg a neten?</p>
@@ -20,7 +20,7 @@
             </a>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <!-- about -->
       <!-- <div id="about"
