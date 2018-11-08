@@ -1,396 +1,401 @@
 <template>
+  <div>
 
-  <body id="myPage"
+    <body>
+      <!-- <body id="myPage"
         data-spy="scroll"
         data-target=".navbar"
-        data-offset="60">
+        data-offset="60"> -->
 
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid vertical-center">
-      <div class="container">
-        <h1>Nincs még weboldalad?</h1>
-        <p class="py-3">Nem találnak meg a neten?</p>
-        <p>Akkor a legjobb helyen vagy, hogy ez megváltozzon!</p>
-        <div class="container jumbdiv">
-          <a href="#contact">
-            <button class="btn btn-green btn-lg mt-3"
-                    role="button">Weboldalt akarok!</button>
-          </a>
+      <!-- Jumbotron -->
+      <div class="jumbotron jumbotron-fluid vertical-center">
+        <div class="container">
+          <h1>Nincs még weboldalad?</h1>
+          <p class="py-3">Nem találnak meg a neten?</p>
+          <p>Akkor a legjobb helyen vagy, hogy ez megváltozzon!</p>
+          <div class="container jumbdiv">
+            <a href="#contact">
+              <button class="btn btn-green btn-lg mt-3"
+                      role="button">Weboldalt akarok!</button>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- about -->
-    <div id="about"
-         class="container-fluid">
-      <div class="row">
-        <div class="col-md-8 col-sm-12">
-          <h2>Rólam</h2>
-          <br>
-          <p>Üdvözöllek az oldalamon, Sárik Attila vagyok. A programozás már a gimnáziumi időkben is érdekelt,
-            de a suli végén a sport miatt más mellett döntöttem. Pár éve, 2016-ban, aztán újra előtérbe
-            került az informatika világa, most már fókuszban a weboldalakkal. Úgy éreztem itt tudok értéket
-            adni, amire másoknak is szüksége van. Azóta folyamatosan tanulok, képzem magam, hisz ez az
-            a világ, ahol hónapról hónapra változnak a trendek. Célom, hogy a mai modern megjelenést
-            tudjam biztosítani partnereimnek, a számukra leghasznosabb funkciókkal együtt. Ma már a mikro-
-            és kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először mindent az interneten
-            keresünk. Jelentősen több az elérhető emberek száma online, mint offline.
-          </p>
-          <!-- <br>
+      <!-- about -->
+      <div id="about"
+           class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <h2>Rólam</h2>
+            <br>
+            <p>Üdvözöllek az oldalamon, Sárik Attila vagyok. A programozás már a gimnáziumi időkben is érdekelt,
+              de a suli végén a sport miatt más mellett döntöttem. Pár éve, 2016-ban, aztán újra előtérbe
+              került az informatika világa, most már fókuszban a weboldalakkal. Úgy éreztem itt tudok
+              értéket adni, amire másoknak is szüksége van. Azóta folyamatosan tanulok, képzem magam,
+              hisz ez az a világ, ahol hónapról hónapra változnak a trendek. Célom, hogy a mai modern
+              megjelenést tudjam biztosítani partnereimnek, a számukra leghasznosabb funkciókkal együtt.
+              Ma már a mikro- és kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először
+              mindent az interneten keresünk. Jelentősen több az elérhető emberek száma online, mint
+              offline.
+            </p>
+            <!-- <br>
           <a href="#contact">
             <button class="btn btn-default btn-lg">Érdekel</button>
           </a> -->
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="card mb-5">
-            <div class="box">
-              <div class="img">
-                <img src="../assets/sati2.jpg">
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card mb-5">
+              <div class="box">
+                <div class="img">
+                  <img src="../assets/sati2.jpg">
+                </div>
+                <h2>Sárik Attila
+                  <br>
+                  <span>Weboldalak készítése</span>
+                </h2>
+                <p class="font-italic"> "Amíg azt teszed, amit eddig, azt kapod amit eddig"
+                </p>
+                <span>
+                  <p>- Jim Rohn -</p>
+                </span>
               </div>
-              <h2>Sárik Attila
-                <br>
-                <span>Weboldalak készítése</span>
-              </h2>
-              <p class="font-italic"> "Amíg azt teszed, amit eddig, azt kapod amit eddig"
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- service -->
+      <section id="service"
+               class="pb-5">
+        <div class="container">
+          <h2>Szolgáltatásaim</h2>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip"
+                   ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                  <div class="frontside">
+                    <div class="card2">
+                      <div class="card-body text-center">
+                        <p>
+                          <i class="fas fa-desktop fa-3x"></i>
+                          <!-- <img class="img-fluid" src="../assets/responsive.svg" alt="card image"> -->
+                        </p>
+                        <h4 class="card-title">Reszponzív design</h4>
+                        <p class="card-text">Minden eszközön teljes átláthatóság, hogy weboldalad látogatói minden infót megtaláljanak!</p>
+                        <!-- <a href="#"
+                         class="btn btn-primary btn-sm">
+                        <i class="fa fa-plus"></i>
+                      </a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="backside">
+                    <div class="card2">
+                      <div class="card-body text-center mt-4">
+                        <h4 class="card-title">Reszponzív?</h4>
+                        <p class="card-text">Ma már szinte mindent tudunk a mobilunkról intézni, így design szempontjából
+                          a legfontosabb, hogy weboldalad igazodjon a kijelzők méretéhez. Maximális élményt
+                          nyújtson a látogatóidnak.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip"
+                   ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                  <div class="frontside">
+                    <div class="card2">
+                      <div class="card-body text-center">
+                        <p>
+                          <i class="fas fa-tasks fa-3x"></i>
+                          <!-- <img class="img-fluid" src="../assets/handshake.svg" alt="card image"> -->
+                        </p>
+                        <h4 class="card-title">Komplett csomag</h4>
+                        <p class="card-text">Minden ami az online létedhez szükséges!</p>
+                        <!-- <a href="#"
+                         class="btn btn-primary btn-sm">
+                        <i class="fa fa-plus"></i>
+                      </a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="backside">
+                    <div class="card2">
+                      <div class="card-body text-center mt-4">
+                        <h4 class="card-title">Komplett?</h4>
+                        <p class="card-text">Igen! Nem csak egy weboldalt kapsz, hanem egy teljes csomagot! Csak az igényeidet,
+                          az elképzeléseidet kell átadnod, minden mást intézek! Tárhely, domain név,
+                          saját e-mail cím beállítása.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip"
+                   ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                  <div class="frontside">
+                    <div class="card2">
+                      <div class="card-body text-center">
+                        <p>
+                          <i class="fas fa-feather-alt fa-3x"></i>
+                          <!-- <img class="img-fluid" src="../assets/support.svg" alt="card image"> -->
+                        </p>
+                        <h4 class="card-title">Támogatás</h4>
+                        <p class="card-text">Az elkészült weboldalad átadása után sem maradsz egyedül!</p>
+                        <!-- <a href="#"
+                         class="btn btn-primary btn-sm">
+                        <i class="fa fa-plus"></i>
+                      </a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="backside">
+                    <div class="card2">
+                      <div class="card-body text-center mt-4">
+                        <h4 class="card-title">Kapok támogatást?</h4>
+                        <p class="card-text">Kapsz, bizony! Napi használatban van a weblapod, de eljött az idő egy kis frissítésre?
+                          Egy-két változtatást szeretnél az oldaladra? Semmi akadálya, csak jelezd az
+                          igényeidet!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- porfolio -->
+      <div id="portfolio"
+           class="container-fluid text-center">
+        <h2>Portfolio</h2>
+        <h4>Korábbi munkáim</h4>
+        <div class="row text-center pt-3">
+          <div class="col-sm-12 col-md-4">
+            <div class="thumbnail">
+              <a href="http://www.marsiadrifodrasz.hu">
+                <img class="img-responsive"
+                     src="../assets/marsiadrifodrasz.png"
+                     alt="Marsi Adri fodrász weboldala">
+              </a>
+              <p class="text-center pt-2">
+                <strong>Marsi Adri fodrász</strong>
               </p>
-              <span>
-                <p>- Jim Rohn -</p>
-              </span>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="thumbnail">
+              <a href="http://www.mmm98bt.hu">
+                <img class="img-responsive"
+                     src="../assets/mmm98bt.png"
+                     alt="MMM 98 Bt weboldala">
+              </a>
+              <p class="text-center pt-2">
+                <strong>MMM 98 Bt</strong>
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="thumbnail">
+              <a href="http://www.salyisuli.hu.hu">
+                <img class="img-responsive"
+                     src="../assets/salyisuli.png"
+                     alt="Sályi-Suli autósiskola weboldala">
+              </a>
+              <p class="text-center pt-2">
+                <strong>Sályi-Suli autósiskola</strong>
+              </p>
             </div>
           </div>
         </div>
+        <br>
+        <div class="row text-center pt-3">
+          <div class="col-sm-12 col-md-4">
+            <div class="thumbnail">
+              <a href="http://www.inoxvilag.hu">
+                <img class="img-responsive"
+                     src="../assets/inoxvilag.png"
+                     alt="Inoxvilág weboldala">
+              </a>
+              <p class="text-center pt-2">
+                <strong>Rozsdamentes bútorok</strong>
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="thumbnail">
+              <a href="http://www.csipke-eskuvoiszertartas.hu">
+                <img class="img-responsive"
+                     src="../assets/csipke.png"
+                     alt="Szalkai Gabriella weboldala"
+                     width="100%">
+              </a>
+              <p class="text-center pt-2">
+                <strong>Csipke-Esküvői Szertartás</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <br>
       </div>
-    </div>
 
-    <!-- service -->
-    <section id="service"
-             class="pb-5">
-      <div class="container">
-        <h2>Szolgáltatásaim</h2>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="image-flip"
-                 ontouchstart="this.classList.toggle('hover');">
-              <div class="mainflip">
-                <div class="frontside">
-                  <div class="card2">
-                    <div class="card-body text-center">
-                      <p>
-                        <i class="fas fa-desktop fa-3x"></i>
-                        <!-- <img class="img-fluid" src="../assets/responsive.svg" alt="card image"> -->
-                      </p>
-                      <h4 class="card-title">Reszponzív design</h4>
-                      <p class="card-text">Minden eszközön teljes átláthatóság, hogy weboldalad látogatói minden infót megtaláljanak!</p>
-                      <!-- <a href="#"
-                         class="btn btn-primary btn-sm">
-                        <i class="fa fa-plus"></i>
-                      </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="backside">
-                  <div class="card2">
-                    <div class="card-body text-center mt-4">
-                      <h4 class="card-title">Reszponzív?</h4>
-                      <p class="card-text">Ma már szinte mindent tudunk a mobilunkról intézni, így design szempontjából a
-                        legfontosabb, hogy weboldalad igazodjon a kijelzők méretéhez. Maximális élményt
-                        nyújtson a látogatóidnak.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+      <section id="opinion"
+               class="bg-car py-5">
+        <h2>Amit rólam mondtak</h2>
+        <div class="container">
+          <div id="carouselExampleIndicators"
+               class="carousel slide padding"
+               data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"></li>
+              <li data-target="#carouselExampleIndicators"
+                  data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators"
+                  data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner col-11 mx-auto">
+              <div class="carousel-item active">
+                <blockquote class="blockquote text-center my-5">
+                  <p>"Nagy segítség az új weboldalam, hisz vendégeim több mint fele, már online talál meg."</p>
+                  <footer class="blockquote-footer">Marsi Adrienn
+                    <cite title="Source Title">Vállalkozó - Női-férfi-gyermek fodrász</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center my-5">
+                  <p>"Autósiskolámnak mai kornak megfelelő megjelenést kaptam, rendszeres karbantartással."</p>
+                  <footer class="blockquote-footer">Sályi Sándor
+                    <cite title="Source Title">Vállalkozó - Autósiskola Vezető</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center my-5">
+                  <p>"Cégünk többféle szolgáltatást is nyújt, ezeket oldalunkon könnyen megtalálják a látogatók"</p>
+                  <footer class="blockquote-footer">Marsi Attiláné
+                    <cite title="Source Title">Cégvezető - Biztosítás, szaktanácsadás</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center my-5">
+                  <p>"Széles termékkínálatunk fontos információi megtalálhatóak egyedi oldalunkon"</p>
+                  <footer class="blockquote-footer">Fekete László
+                    <cite title="Source Title">Vállalkozó - Rozsdamentes berendezések</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center my-5">
+                  <p>"Szeretném megköszönni Sárik Attila kreatív, lelkiismeretes munkáját. Gördülékeny együttműködésével
+                    lehetővé tette gondolataim formába öntését."</p>
+                  <footer class="blockquote-footer">Szalkai Gabriella
+                    <cite title="Source Title">Vállalkozó - Esküvői Szertartásvezető</cite>
+                  </footer>
+                </blockquote>
               </div>
             </div>
+            <a class="carousel-control-prev"
+               href="#carouselExampleIndicators"
+               role="button"
+               data-slide="prev">
+              <span class="carousel-control-prev-icon"
+                    aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next"
+               href="#carouselExampleIndicators"
+               role="button"
+               data-slide="next">
+              <span class="carousel-control-next-icon"
+                    aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="image-flip"
-                 ontouchstart="this.classList.toggle('hover');">
-              <div class="mainflip">
-                <div class="frontside">
-                  <div class="card2">
-                    <div class="card-body text-center">
-                      <p>
-                        <i class="fas fa-tasks fa-3x"></i>
-                        <!-- <img class="img-fluid" src="../assets/handshake.svg" alt="card image"> -->
-                      </p>
-                      <h4 class="card-title">Komplett csomag</h4>
-                      <p class="card-text">Minden ami az online létedhez szükséges!</p>
-                      <!-- <a href="#"
-                         class="btn btn-primary btn-sm">
-                        <i class="fa fa-plus"></i>
-                      </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="backside">
-                  <div class="card2">
-                    <div class="card-body text-center mt-4">
-                      <h4 class="card-title">Komplett?</h4>
-                      <p class="card-text">Igen! Nem csak egy weboldalt kapsz, hanem egy teljes csomagot! Csak az igényeidet,
-                        az elképzeléseidet kell átadnod, minden mást intézek! Tárhely, domain név, saját
-                        e-mail cím beállítása.</p>
+        </div>
+      </section>
 
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="image-flip"
-                 ontouchstart="this.classList.toggle('hover');">
-              <div class="mainflip">
-                <div class="frontside">
-                  <div class="card2">
-                    <div class="card-body text-center">
-                      <p>
-                        <i class="fas fa-feather-alt fa-3x"></i>
-                        <!-- <img class="img-fluid" src="../assets/support.svg" alt="card image"> -->
-                      </p>
-                      <h4 class="card-title">Támogatás</h4>
-                      <p class="card-text">Az elkészült weboldalad átadása után sem maradsz egyedül!</p>
-                      <!-- <a href="#"
-                         class="btn btn-primary btn-sm">
-                        <i class="fa fa-plus"></i>
-                      </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="backside">
-                  <div class="card2">
-                    <div class="card-body text-center mt-4">
-                      <h4 class="card-title">Kapok támogatást?</h4>
-                      <p class="card-text">Kapsz, bizony! Napi használatban van a weblapod, de eljött az idő egy kis frissítésre?
-                        Egy-két változtatást szeretnél az oldaladra? Semmi akadálya, csak jelezd az igényeidet!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- porfolio -->
-    <div id="portfolio"
-         class="container-fluid text-center">
-      <h2>Portfolio</h2>
-      <h4>Korábbi munkáim</h4>
-      <div class="row text-center pt-3">
-        <div class="col-sm-12 col-md-4">
-          <div class="thumbnail">
-            <a href="http://www.marsiadrifodrasz.hu">
-              <img class="img-responsive"
-                   src="../assets/marsiadrifodrasz.png"
-                   alt="Marsi Adri fodrász weboldala">
-            </a>
-            <p class="text-center pt-2">
-              <strong>Marsi Adri fodrász</strong>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="thumbnail">
-            <a href="http://www.mmm98bt.hu">
-              <img class="img-responsive"
-                   src="../assets/mmm98bt.png"
-                   alt="MMM 98 Bt weboldala">
-            </a>
-            <p class="text-center pt-2">
-              <strong>MMM 98 Bt</strong>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="thumbnail">
-            <a href="http://www.salyisuli.hu.hu">
-              <img class="img-responsive"
-                   src="../assets/salyisuli.png"
-                   alt="Sályi-Suli autósiskola weboldala">
-            </a>
-            <p class="text-center pt-2">
-              <strong>Sályi-Suli autósiskola</strong>
-            </p>
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="row text-center pt-3">
-        <div class="col-sm-12 col-md-4">
-          <div class="thumbnail">
-            <a href="http://www.inoxvilag.hu">
-              <img class="img-responsive"
-                   src="../assets/inoxvilag.png"
-                   alt="Inoxvilág weboldala">
-            </a>
-            <p class="text-center pt-2">
-              <strong>Rozsdamentes bútorok</strong>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="thumbnail">
-            <a href="http://www.csipke-eskuvoiszertartas.hu">
-              <img class="img-responsive"
-                   src="../assets/csipke.png"
-                   alt="Szalkai Gabriella weboldala"
-                   width="100%">
-            </a>
-            <p class="text-center pt-2">
-              <strong>Csipke-Esküvői Szertartás</strong>
-            </p>
-          </div>
-        </div>
-      </div>
-      <br>
-    </div>
-
-    <section id="opinion"
-             class="bg-car py-5">
-      <h2>Amit rólam mondtak</h2>
-      <div class="container">
-        <div id="carouselExampleIndicators"
-             class="carousel slide padding"
-             data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators"
-                data-slide-to="0"
-                class="active"></li>
-            <li data-target="#carouselExampleIndicators"
-                data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators"
-                data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner col-11 mx-auto">
-            <div class="carousel-item active">
-              <blockquote class="blockquote text-center my-5">
-                <p>"Nagy segítség az új weboldalam, hisz vendégeim több mint fele, már online talál meg."</p>
-                <footer class="blockquote-footer">Marsi Adrienn
-                  <cite title="Source Title">Vállalkozó - Női-férfi-gyermek fodrász</cite>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="carousel-item">
-              <blockquote class="blockquote text-center my-5">
-                <p>"Autósiskolámnak mai kornak megfelelő megjelenést kaptam, rendszeres karbantartással."</p>
-                <footer class="blockquote-footer">Sályi Sándor
-                  <cite title="Source Title">Vállalkozó - Autósiskola Vezető</cite>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="carousel-item">
-              <blockquote class="blockquote text-center my-5">
-                <p>"Cégünk többféle szolgáltatást is nyújt, ezeket oldalunkon könnyen megtalálják a látogatók"</p>
-                <footer class="blockquote-footer">Marsi Attiláné
-                  <cite title="Source Title">Cégvezető - Biztosítás, szaktanácsadás</cite>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="carousel-item">
-              <blockquote class="blockquote text-center my-5">
-                <p>"Széles termékkínálatunk fontos információi megtalálhatóak egyedi oldalunkon"</p>
-                <footer class="blockquote-footer">Fekete László
-                  <cite title="Source Title">Vállalkozó - Rozsdamentes berendezések</cite>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="carousel-item">
-              <blockquote class="blockquote text-center my-5">
-                <p>"Szeretném megköszönni Sárik Attila kreatív, lelkiismeretes munkáját. Gördülékeny együttműködésével
-                  lehetővé tette gondolataim formába öntését."</p>
-                <footer class="blockquote-footer">Szalkai Gabriella
-                  <cite title="Source Title">Vállalkozó - Esküvői Szertartásvezető</cite>
-                </footer>
-              </blockquote>
-            </div>
-          </div>
-          <a class="carousel-control-prev"
-             href="#carouselExampleIndicators"
-             role="button"
-             data-slide="prev">
-            <span class="carousel-control-prev-icon"
-                  aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next"
-             href="#carouselExampleIndicators"
-             role="button"
-             data-slide="next">
-            <span class="carousel-control-next-icon"
-                  aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="container">
-        <h3 class="text-center text-uppercase">Lépj kapcsolatba velem</h3>
-        <p class="text-center w-75 m-auto">Keress bátran alábbi elérhetőségeimen! Megbeszéljük mik az elképzeléseid, hogyan is szeretnél
-          megjelenni online.</p>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-            <div class="card3 border-0">
-              <div class="card-body text-center">
-                <img class="img"
-                     src="../assets/phone-call.svg"
-                     alt="Telefon">
-                <!-- <i class="fa fa-phone fa-3x mb-3" aria-hidden="true"></i> -->
-                <h4 class="text-uppercase mb-3 pt-3">Telefon</h4>
-                <h5>06-30/731-3591</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-            <div class="card3 border-0">
-              <div class="card-body text-center">
-                <img class="img"
-                     src="../assets/email.svg"
-                     alt="E-mail">
-                <!-- <i class="fa fa-at fa-3x mb-3" aria-hidden="true"></i> -->
-                <h4 class="text-uppercase mb-3 pt-3">E-mail</h4>
-                <a href="mailto:info@satiweb.hu">
-                  <h5>info@satiweb.hu</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-            <div class="card3 border-0">
-              <div class="card-body text-center">
-                <a href="http://fb.me/Atiballer">
+      <section id="contact">
+        <div class="container">
+          <h3 class="text-center text-uppercase">Lépj kapcsolatba velem</h3>
+          <p class="text-center w-75 m-auto">Keress bátran alábbi elérhetőségeimen! Megbeszéljük mik az elképzeléseid, hogyan is szeretnél
+            megjelenni online.</p>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+              <div class="card3 border-0">
+                <div class="card-body text-center">
                   <img class="img"
-                       src="../assets/facebook.svg"
-                       alt="Facebook">
-                  <!-- <i class="fa fa-facebook fa-3x mb-3" aria-hidden="true"></i> -->
-                  <h4 class="text-uppercase mb-3 pt-3">Facebook</h4>
-                  <h5>Keress Facebookon</h5>
-                </a>
+                       src="../assets/phone-call.svg"
+                       alt="Telefon">
+                  <!-- <i class="fa fa-phone fa-3x mb-3" aria-hidden="true"></i> -->
+                  <h4 class="text-uppercase mb-3 pt-3">Telefon</h4>
+                  <h5>06-30/731-3591</h5>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-3 my-5">
-            <div class="card3 border-0">
-              <div class="card-body text-center">
-                <a href="http://m.me/Atiballer">
+            <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+              <div class="card3 border-0">
+                <div class="card-body text-center">
                   <img class="img"
-                       src="../assets/messenger.svg"
-                       alt="Messenger">
-                  <!-- <i class="fa fa-facebook-messenger fa-3x mb-3" aria-hidden="true"></i> -->
-                  <h4 class="text-uppercase mb-3 pt-3">Messenger</h4>
-                  <h5>Írj Messengeren</h5>
-                </a>
+                       src="../assets/email.svg"
+                       alt="E-mail">
+                  <!-- <i class="fa fa-at fa-3x mb-3" aria-hidden="true"></i> -->
+                  <h4 class="text-uppercase mb-3 pt-3">E-mail</h4>
+                  <a href="mailto:info@satiweb.hu">
+                    <h5>info@satiweb.hu</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+              <div class="card3 border-0">
+                <div class="card-body text-center">
+                  <a href="http://fb.me/Atiballer">
+                    <img class="img"
+                         src="../assets/facebook.svg"
+                         alt="Facebook">
+                    <!-- <i class="fa fa-facebook fa-3x mb-3" aria-hidden="true"></i> -->
+                    <h4 class="text-uppercase mb-3 pt-3">Facebook</h4>
+                    <h5>Keress Facebookon</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 my-5">
+              <div class="card3 border-0">
+                <div class="card-body text-center">
+                  <a href="http://m.me/Atiballer">
+                    <img class="img"
+                         src="../assets/messenger.svg"
+                         alt="Messenger">
+                    <!-- <i class="fa fa-facebook-messenger fa-3x mb-3" aria-hidden="true"></i> -->
+                    <h4 class="text-uppercase mb-3 pt-3">Messenger</h4>
+                    <h5>Írj Messengeren</h5>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-  </body>
+    </body>
+  </div>
 </template>
 
 <script>
@@ -483,7 +488,7 @@ a.btn-green:hover {
 
 .vertical-center {
   min-height: 100%; /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
+  min-height: 100vh; /* These two lines are counted as one       */
 
   min-height: calc(100% - 56px); /*  */
   min-height: calc(100vh - 56px); /* */
