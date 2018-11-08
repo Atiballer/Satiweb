@@ -8,8 +8,9 @@
         data-offset="60"> -->
 
       <!-- Jumbotron -->
-      <div class="jumbotron jumbotron-fluid vertical-center">
-        <!-- <div class="container">
+      <div class="container">
+        <div class="jumbotron jumbotron-fluid vertical-center">
+
           <h1>Nincs még weboldalad?</h1>
           <p class="py-3">Nem találnak meg a neten?</p>
           <p>Akkor a legjobb helyen vagy, hogy ez megváltozzon!</p>
@@ -19,7 +20,7 @@
                       role="button">Weboldalt akarok!</button>
             </a>
           </div>
-        </div> -->
+        </div>
       </div>
 
       <!-- about -->
