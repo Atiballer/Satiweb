@@ -1,30 +1,29 @@
 <template>
-  <div>
+  <main>
 
-    <body>
-      <!-- <body id="myPage"
+    <!-- <body id="myPage"
         data-spy="scroll"
         data-target=".navbar"
         data-offset="60"> -->
 
-      <!-- Jumbotron -->
-      <div class="container">
-        <div class="jumbotron jumbotron-fluid vertical-center">
+    <!-- Jumbotron -->
 
-          <h1>Nincs még weboldalad?</h1>
-          <p class="py-3">Nem találnak meg a neten?</p>
-          <p>Akkor a legjobb helyen vagy, hogy ez megváltozzon!</p>
-          <div class="container jumbdiv">
-            <a href="#contact">
-              <button class="btn btn-green btn-lg mt-3"
-                      role="button">Weboldalt akarok!</button>
-            </a>
-          </div>
+    <div class="jumbotron jumbotron-fluid vertical-center">
+      <container>
+        <h1>Nincs még weboldalad?</h1>
+        <p class="py-3">Nem találnak meg a neten?</p>
+        <p>Akkor a legjobb helyen vagy, hogy ez megváltozzon!</p>
+        <div class="container jumbdiv">
+          <a href="#contact">
+            <button class="btn btn-green btn-lg mt-3"
+                    role="button">Weboldalt akarok!</button>
+          </a>
         </div>
-      </div>
+      </container>
+    </div>
 
-      <!-- about -->
-      <!-- <div id="about"
+    <!-- about -->
+    <!-- <div id="about"
            class="container-fluid">
         <div class="row">
           <div class="col-md-8 col-sm-12">
@@ -40,11 +39,11 @@
               mindent az interneten keresünk. Jelentősen több az elérhető emberek száma online, mint
               offline.
             </p> -->
-      <!-- <br>
+    <!-- <br>
           <a href="#contact">
             <button class="btn btn-default btn-lg">Érdekel</button>
           </a> -->
-      <!-- </div>
+    <!-- </div>
           <div class="col-md-4 col-sm-12">
             <div class="card mb-5">
               <div class="box">
@@ -66,8 +65,8 @@
         </div>
       </div> -->
 
-      <!-- service -->
-      <!-- <section id="service"
+    <!-- service -->
+    <!-- <section id="service"
                class="pb-5">
         <div class="container">
           <h2>Szolgáltatásaim</h2>
@@ -84,11 +83,11 @@
                         </p>
                         <h4 class="card-title">Reszponzív design</h4>
                         <p class="card-text">Minden eszközön teljes átláthatóság, hogy weboldalad látogatói minden infót megtaláljanak!</p> -->
-      <!-- <a href="#"
+    <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
                       </a> -->
-      <!-- </div>
+    <!-- </div>
                     </div>
                   </div>
                   <div class="backside">
@@ -118,11 +117,11 @@
                         </p>
                         <h4 class="card-title">Komplett csomag</h4>
                         <p class="card-text">Minden ami az online létedhez szükséges!</p> -->
-      <!-- <a href="#"
+    <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
                       </a> -->
-      <!-- </div>
+    <!-- </div>
                     </div>
                   </div>
                   <div class="backside">
@@ -152,11 +151,11 @@
                         </p>
                         <h4 class="card-title">Támogatás</h4>
                         <p class="card-text">Az elkészült weboldalad átadása után sem maradsz egyedül!</p> -->
-      <!-- <a href="#"
+    <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
                       </a> -->
-      <!-- </div>
+    <!-- </div>
                     </div>
                   </div>
                   <div class="backside">
@@ -177,8 +176,8 @@
         </div>
       </section> -->
 
-      <!-- porfolio -->
-      <!-- <div id="portfolio"
+    <!-- porfolio -->
+    <!-- <div id="portfolio"
            class="container-fluid text-center">
         <h2>Portfolio</h2>
         <h4>Korábbi munkáim</h4>
@@ -251,7 +250,7 @@
         <br>
       </div> -->
 
-      <!-- <section id="opinion"
+    <!-- <section id="opinion"
                class="bg-car py-5">
         <h2>Amit rólam mondtak</h2>
         <div class="container">
@@ -330,7 +329,7 @@
         </div>
       </section> -->
 
-      <!-- <section id="contact">
+    <!-- <section id="contact">
         <div class="container">
           <h3 class="text-center text-uppercase">Lépj kapcsolatba velem</h3>
           <p class="text-center w-75 m-auto">Keress bátran alábbi elérhetőségeimen! Megbeszéljük mik az elképzeléseid, hogyan is szeretnél
@@ -392,8 +391,7 @@
         </div>
       </section> -->
 
-    </body>
-  </div>
+  </main>
 </template>
 
 <script>
