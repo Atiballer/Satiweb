@@ -1,10 +1,8 @@
 <template>
-  <main>
-
-    <!-- <body id="myPage"
+  <main id="myPage"
         data-spy="scroll"
         data-target=".navbar"
-        data-offset="60"> -->
+        data-offset="60">
 
     <!-- Jumbotron -->
 
@@ -179,7 +177,7 @@
          class="container-fluid text-center">
       <h2>Portfolio</h2>
       <h4>Korábbi munkáim</h4>
-      <div class="row text-center pt-3">
+      <div class="row text-center pt-3 slideanim">
         <div class="col-sm-12 col-md-4">
           <div class="thumbnail">
             <a href="http://www.marsiadrifodrasz.hu">
@@ -218,7 +216,7 @@
         </div>
       </div>
       <br>
-      <div class="row text-center pt-3">
+      <div class="row text-center pt-3 slideanim">
         <div class="col-sm-12 col-md-4">
           <div class="thumbnail">
             <a href="http://www.inoxvilag.hu">
@@ -251,7 +249,7 @@
     <section id="opinion"
              class="bg-car py-5">
       <h2>Amit rólam mondtak</h2>
-      <div class="container">
+      <div class="container slideanim">
         <div id="carouselExampleIndicators"
              class="carousel slide padding"
              data-ride="carousel">
@@ -332,7 +330,7 @@
         <h3 class="text-center text-uppercase">Lépj kapcsolatba velem</h3>
         <p class="text-center w-75 m-auto">Keress bátran alábbi elérhetőségeimen! Megbeszéljük mik az elképzeléseid, hogyan is szeretnél
           megjelenni online.</p>
-        <div class="row">
+        <div class="row slideanim">
           <div class="col-sm-12 col-md-6 col-lg-3 my-5">
             <div class="card3 border-0">
               <div class="card-body text-center">

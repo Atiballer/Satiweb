@@ -105,10 +105,6 @@ module.exports = {
       ** Run ESLint on save
       */
     extend(config, { isDev, isClient }) {
-      // config.resolve.alias["jquery"] = "~/static/bootstrap/jquery.min.js";
-      // config.resolve.alias["popper.js"] = "~/static/bootstrap/popper.min.js";
-      // config.resolve.alias["bootstrap"] = "~/static/bootstrap/bootstrap.min.js";
-
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: "pre",
