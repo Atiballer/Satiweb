@@ -81,10 +81,10 @@
                       </p>
                       <h4 class="card-title">Reszponzív design</h4>
                       <p class="card-text">Minden eszközön teljes átláthatóság, hogy weboldalad látogatói minden infót megtaláljanak!</p>
-                      <a href="#"
+                      <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
-                      </a>
+                      </a> -->
                     </div>
                   </div>
                 </div>
@@ -115,10 +115,10 @@
                       </p>
                       <h4 class="card-title">Komplett csomag</h4>
                       <p class="card-text">Minden ami az online létedhez szükséges!</p>
-                      <a href="#"
+                      <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
-                      </a>
+                      </a> -->
                     </div>
                   </div>
                 </div>
@@ -149,10 +149,10 @@
                       </p>
                       <h4 class="card-title">Támogatás</h4>
                       <p class="card-text">Az elkészült weboldalad átadása után sem maradsz egyedül!</p>
-                      <a href="#"
+                      <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
-                      </a>
+                      </a> -->
                     </div>
                   </div>
                 </div>
