@@ -175,78 +175,78 @@
     </section>
 
     <!-- porfolio -->
-    <!-- <div id="portfolio"
-           class="container-fluid text-center">
-        <h2>Portfolio</h2>
-        <h4>Korábbi munkáim</h4>
-        <div class="row text-center pt-3">
-          <div class="col-sm-12 col-md-4">
-            <div class="thumbnail">
-              <a href="http://www.marsiadrifodrasz.hu">
-                <img class="img-responsive"
-                     src="../assets/marsiadrifodrasz.png"
-                     alt="Marsi Adri fodrász weboldala">
-              </a>
-              <p class="text-center pt-2">
-                <strong>Marsi Adri fodrász</strong>
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div class="thumbnail">
-              <a href="http://www.mmm98bt.hu">
-                <img class="img-responsive"
-                     src="../assets/mmm98bt.png"
-                     alt="MMM 98 Bt weboldala">
-              </a>
-              <p class="text-center pt-2">
-                <strong>MMM 98 Bt</strong>
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div class="thumbnail">
-              <a href="http://www.salyisuli.hu.hu">
-                <img class="img-responsive"
-                     src="../assets/salyisuli.png"
-                     alt="Sályi-Suli autósiskola weboldala">
-              </a>
-              <p class="text-center pt-2">
-                <strong>Sályi-Suli autósiskola</strong>
-              </p>
-            </div>
+    <div id="portfolio"
+         class="container-fluid text-center">
+      <h2>Portfolio</h2>
+      <h4>Korábbi munkáim</h4>
+      <div class="row text-center pt-3">
+        <div class="col-sm-12 col-md-4">
+          <div class="thumbnail">
+            <a href="http://www.marsiadrifodrasz.hu">
+              <img class="img-responsive"
+                   src="../assets/marsiadrifodrasz.png"
+                   alt="Marsi Adri fodrász weboldala">
+            </a>
+            <p class="text-center pt-2">
+              <strong>Marsi Adri fodrász</strong>
+            </p>
           </div>
         </div>
-        <br>
-        <div class="row text-center pt-3">
-          <div class="col-sm-12 col-md-4">
-            <div class="thumbnail">
-              <a href="http://www.inoxvilag.hu">
-                <img class="img-responsive"
-                     src="../assets/inoxvilag.png"
-                     alt="Inoxvilág weboldala">
-              </a>
-              <p class="text-center pt-2">
-                <strong>Rozsdamentes bútorok</strong>
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div class="thumbnail">
-              <a href="http://www.csipke-eskuvoiszertartas.hu">
-                <img class="img-responsive"
-                     src="../assets/csipke.png"
-                     alt="Szalkai Gabriella weboldala"
-                     width="100%">
-              </a>
-              <p class="text-center pt-2">
-                <strong>Csipke-Esküvői Szertartás</strong>
-              </p>
-            </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="thumbnail">
+            <a href="http://www.mmm98bt.hu">
+              <img class="img-responsive"
+                   src="../assets/mmm98bt.png"
+                   alt="MMM 98 Bt weboldala">
+            </a>
+            <p class="text-center pt-2">
+              <strong>MMM 98 Bt</strong>
+            </p>
           </div>
         </div>
-        <br>
-      </div> -->
+        <div class="col-sm-12 col-md-4">
+          <div class="thumbnail">
+            <a href="http://www.salyisuli.hu.hu">
+              <img class="img-responsive"
+                   src="../assets/salyisuli.png"
+                   alt="Sályi-Suli autósiskola weboldala">
+            </a>
+            <p class="text-center pt-2">
+              <strong>Sályi-Suli autósiskola</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center pt-3">
+        <div class="col-sm-12 col-md-4">
+          <div class="thumbnail">
+            <a href="http://www.inoxvilag.hu">
+              <img class="img-responsive"
+                   src="../assets/inoxvilag.png"
+                   alt="Inoxvilág weboldala">
+            </a>
+            <p class="text-center pt-2">
+              <strong>Rozsdamentes bútorok</strong>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="thumbnail">
+            <a href="http://www.csipke-eskuvoiszertartas.hu">
+              <img class="img-responsive"
+                   src="../assets/csipke.png"
+                   alt="Szalkai Gabriella weboldala"
+                   width="100%">
+            </a>
+            <p class="text-center pt-2">
+              <strong>Csipke-Esküvői Szertartás</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
 
     <!-- <section id="opinion"
                class="bg-car py-5">
