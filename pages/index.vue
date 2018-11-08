@@ -23,47 +23,46 @@
     </div>
 
     <!-- about -->
-    <!-- <div id="about"
-           class="container-fluid">
-        <div class="row">
-          <div class="col-md-8 col-sm-12">
-            <h2>Rólam</h2>
-            <br>
-            <p>Üdvözöllek az oldalamon, Sárik Attila vagyok. A programozás már a gimnáziumi időkben is érdekelt,
-              de a suli végén a sport miatt más mellett döntöttem. Pár éve, 2016-ban, aztán újra előtérbe
-              került az informatika világa, most már fókuszban a weboldalakkal. Úgy éreztem itt tudok
-              értéket adni, amire másoknak is szüksége van. Azóta folyamatosan tanulok, képzem magam,
-              hisz ez az a világ, ahol hónapról hónapra változnak a trendek. Célom, hogy a mai modern
-              megjelenést tudjam biztosítani partnereimnek, a számukra leghasznosabb funkciókkal együtt.
-              Ma már a mikro- és kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először
-              mindent az interneten keresünk. Jelentősen több az elérhető emberek száma online, mint
-              offline.
-            </p> -->
-    <!-- <br>
+    <div id="about"
+         class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <h2>Rólam</h2>
+          <br>
+          <p>Üdvözöllek az oldalamon, Sárik Attila vagyok. A programozás már a gimnáziumi időkben is érdekelt,
+            de a suli végén a sport miatt más mellett döntöttem. Pár éve, 2016-ban, aztán újra előtérbe
+            került az informatika világa, most már fókuszban a weboldalakkal. Úgy éreztem itt tudok értéket
+            adni, amire másoknak is szüksége van. Azóta folyamatosan tanulok, képzem magam, hisz ez az
+            a világ, ahol hónapról hónapra változnak a trendek. Célom, hogy a mai modern megjelenést
+            tudjam biztosítani partnereimnek, a számukra leghasznosabb funkciókkal együtt. Ma már a mikro-
+            és kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először mindent az interneten
+            keresünk. Jelentősen több az elérhető emberek száma online, mint offline.
+          </p>
+          <!-- <br>
           <a href="#contact">
             <button class="btn btn-default btn-lg">Érdekel</button>
           </a> -->
-    <!-- </div>
-          <div class="col-md-4 col-sm-12">
-            <div class="card mb-5">
-              <div class="box">
-                <div class="img">
-                  <img src="../assets/sati2.jpg">
-                </div>
-                <h2>Sárik Attila
-                  <br>
-                  <span>Weboldalak készítése</span>
-                </h2>
-                <p class="font-italic"> "Amíg azt teszed, amit eddig, azt kapod amit eddig"
-                </p>
-                <span>
-                  <p>- Jim Rohn -</p>
-                </span>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card mb-5">
+            <div class="box">
+              <div class="img">
+                <img src="../assets/sati2.jpg">
               </div>
+              <h2>Sárik Attila
+                <br>
+                <span>Weboldalak készítése</span>
+              </h2>
+              <p class="font-italic"> "Amíg azt teszed, amit eddig, azt kapod amit eddig"
+              </p>
+              <span>
+                <p>- Jim Rohn -</p>
+              </span>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
+    </div>
 
     <!-- service -->
     <!-- <section id="service"
