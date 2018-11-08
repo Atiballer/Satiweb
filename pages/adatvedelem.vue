@@ -93,7 +93,7 @@
             <br> Érintettek köre: a Honlap valamennyi látogatója
             <br> Kezelt adatok köre: IP cím, böngésző, operációs rendszer adatai, meglátogatott oldal
             címe és a látogatás időpontja.
-            <br> Adatkezelés időtartama:egy hét Adatfeldolgozó: Cloudflare, Inc.
+            <br> Adatkezelés időtartama:egy hét Adatfeldolgozó: Netlify, Inc.
         </p>
         <p>4. KÜLSŐ SZOLGÁLTATÓ ADATKEZELÉSE</p>
         <p>A Honlap felkeresésekor webanalitikai rendszer üzemeltetése érdekében a Google Analytics kezel
@@ -150,9 +150,9 @@
             érvényességét, vagy az EU-U.S. Privacy Shield tanúsítványt visszavonják, vagy hatályon kívül
             helyezik, Adatkezelő és adatfeldolgozók kölcsönös megállapodásuk alapján az Európai Bizottság
             által jóváhagyott más átadási mechanizmusra hagyatkoznak.</p>
-        <p>Hosting: Név: CloudFlare, Inc.
-            <br>Cím: 101 Townsend St., San Francisco, CA 94107, United States
-            <br>Weboldal: https://www.cloudflare.com/</p>
+        <p>Hosting: Név: Netlify, Inc.
+            <br>Cím: 2325 3rd Street, Suite 215, San Francisco, 94107 CA, United States
+            <br>Weboldal: https://www.netlify.com/</p>
         <p>7. SZEMÉLYES ADATOK TÁROLÁSÁNAK MÓDJA</p>
         <p>Adatkezelő számítástechnikai rendszerei és más adatmegőrzési helyei a székhelyén, valamint adatfeldolgozóinál
             találhatók meg. Adatkezelő a személyes adatok kezeléséhez a szolgáltatás nyújtása során alkalmazott
