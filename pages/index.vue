@@ -177,7 +177,7 @@
       </section> -->
 
       <!-- porfolio -->
-      <div id="portfolio"
+      <!-- <div id="portfolio"
            class="container-fluid text-center">
         <h2>Portfolio</h2>
         <h4>Korábbi munkáim</h4>
@@ -248,7 +248,7 @@
           </div>
         </div>
         <br>
-      </div>
+      </div> -->
 
       <section id="opinion"
                class="bg-car py-5">
