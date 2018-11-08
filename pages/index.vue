@@ -14,10 +14,10 @@
           <p class="py-3">Nem találnak meg a neten?</p>
           <p>Akkor a legjobb helyen vagy, hogy ez megváltozzon!</p>
           <div class="container jumbdiv">
-            <a href="#contact">
+            <!-- <a href="#contact">
               <button class="btn btn-green btn-lg mt-3"
                       role="button">Weboldalt akarok!</button>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
