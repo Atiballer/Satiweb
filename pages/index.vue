@@ -66,7 +66,7 @@
       </div> -->
 
       <!-- service -->
-      <section id="service"
+      <!-- <section id="service"
                class="pb-5">
         <div class="container">
           <h2>Szolgáltatásaim</h2>
@@ -80,15 +80,14 @@
                       <div class="card-body text-center">
                         <p>
                           <i class="fas fa-desktop fa-3x"></i>
-                          <!-- <img class="img-fluid" src="../assets/responsive.svg" alt="card image"> -->
                         </p>
                         <h4 class="card-title">Reszponzív design</h4>
-                        <p class="card-text">Minden eszközön teljes átláthatóság, hogy weboldalad látogatói minden infót megtaláljanak!</p>
-                        <!-- <a href="#"
+                        <p class="card-text">Minden eszközön teljes átláthatóság, hogy weboldalad látogatói minden infót megtaláljanak!</p> -->
+      <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
                       </a> -->
-                      </div>
+      <!-- </div>
                     </div>
                   </div>
                   <div class="backside">
@@ -114,15 +113,15 @@
                       <div class="card-body text-center">
                         <p>
                           <i class="fas fa-tasks fa-3x"></i>
-                          <!-- <img class="img-fluid" src="../assets/handshake.svg" alt="card image"> -->
+                        
                         </p>
                         <h4 class="card-title">Komplett csomag</h4>
-                        <p class="card-text">Minden ami az online létedhez szükséges!</p>
-                        <!-- <a href="#"
+                        <p class="card-text">Minden ami az online létedhez szükséges!</p> -->
+      <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
                       </a> -->
-                      </div>
+      <!-- </div>
                     </div>
                   </div>
                   <div class="backside">
@@ -148,15 +147,15 @@
                       <div class="card-body text-center">
                         <p>
                           <i class="fas fa-feather-alt fa-3x"></i>
-                          <!-- <img class="img-fluid" src="../assets/support.svg" alt="card image"> -->
+                          
                         </p>
                         <h4 class="card-title">Támogatás</h4>
-                        <p class="card-text">Az elkészült weboldalad átadása után sem maradsz egyedül!</p>
-                        <!-- <a href="#"
+                        <p class="card-text">Az elkészült weboldalad átadása után sem maradsz egyedül!</p> -->
+      <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
                       </a> -->
-                      </div>
+      <!-- </div>
                     </div>
                   </div>
                   <div class="backside">
@@ -175,7 +174,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- porfolio -->
       <div id="portfolio"
