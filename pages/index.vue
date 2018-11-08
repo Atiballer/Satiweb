@@ -248,84 +248,84 @@
       <br>
     </div>
 
-    <!-- <section id="opinion"
-               class="bg-car py-5">
-        <h2>Amit rólam mondtak</h2>
-        <div class="container">
-          <div id="carouselExampleIndicators"
-               class="carousel slide padding"
-               data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators"
-                  data-slide-to="0"
-                  class="active"></li>
-              <li data-target="#carouselExampleIndicators"
-                  data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators"
-                  data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner col-11 mx-auto">
-              <div class="carousel-item active">
-                <blockquote class="blockquote text-center my-5">
-                  <p>"Nagy segítség az új weboldalam, hisz vendégeim több mint fele, már online talál meg."</p>
-                  <footer class="blockquote-footer">Marsi Adrienn
-                    <cite title="Source Title">Vállalkozó - Női-férfi-gyermek fodrász</cite>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="carousel-item">
-                <blockquote class="blockquote text-center my-5">
-                  <p>"Autósiskolámnak mai kornak megfelelő megjelenést kaptam, rendszeres karbantartással."</p>
-                  <footer class="blockquote-footer">Sályi Sándor
-                    <cite title="Source Title">Vállalkozó - Autósiskola Vezető</cite>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="carousel-item">
-                <blockquote class="blockquote text-center my-5">
-                  <p>"Cégünk többféle szolgáltatást is nyújt, ezeket oldalunkon könnyen megtalálják a látogatók"</p>
-                  <footer class="blockquote-footer">Marsi Attiláné
-                    <cite title="Source Title">Cégvezető - Biztosítás, szaktanácsadás</cite>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="carousel-item">
-                <blockquote class="blockquote text-center my-5">
-                  <p>"Széles termékkínálatunk fontos információi megtalálhatóak egyedi oldalunkon"</p>
-                  <footer class="blockquote-footer">Fekete László
-                    <cite title="Source Title">Vállalkozó - Rozsdamentes berendezések</cite>
-                  </footer>
-                </blockquote>
-              </div>
-              <div class="carousel-item">
-                <blockquote class="blockquote text-center my-5">
-                  <p>"Szeretném megköszönni Sárik Attila kreatív, lelkiismeretes munkáját. Gördülékeny együttműködésével
-                    lehetővé tette gondolataim formába öntését."</p>
-                  <footer class="blockquote-footer">Szalkai Gabriella
-                    <cite title="Source Title">Vállalkozó - Esküvői Szertartásvezető</cite>
-                  </footer>
-                </blockquote>
-              </div>
+    <section id="opinion"
+             class="bg-car py-5">
+      <h2>Amit rólam mondtak</h2>
+      <div class="container">
+        <div id="carouselExampleIndicators"
+             class="carousel slide padding"
+             data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"></li>
+            <li data-target="#carouselExampleIndicators"
+                data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators"
+                data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner col-11 mx-auto">
+            <div class="carousel-item active">
+              <blockquote class="blockquote text-center my-5">
+                <p>"Nagy segítség az új weboldalam, hisz vendégeim több mint fele, már online talál meg."</p>
+                <footer class="blockquote-footer">Marsi Adrienn
+                  <cite title="Source Title">Vállalkozó - Női-férfi-gyermek fodrász</cite>
+                </footer>
+              </blockquote>
             </div>
-            <a class="carousel-control-prev"
-               href="#carouselExampleIndicators"
-               role="button"
-               data-slide="prev">
-              <span class="carousel-control-prev-icon"
-                    aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next"
-               href="#carouselExampleIndicators"
-               role="button"
-               data-slide="next">
-              <span class="carousel-control-next-icon"
-                    aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+              <blockquote class="blockquote text-center my-5">
+                <p>"Autósiskolámnak mai kornak megfelelő megjelenést kaptam, rendszeres karbantartással."</p>
+                <footer class="blockquote-footer">Sályi Sándor
+                  <cite title="Source Title">Vállalkozó - Autósiskola Vezető</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote text-center my-5">
+                <p>"Cégünk többféle szolgáltatást is nyújt, ezeket oldalunkon könnyen megtalálják a látogatók"</p>
+                <footer class="blockquote-footer">Marsi Attiláné
+                  <cite title="Source Title">Cégvezető - Biztosítás, szaktanácsadás</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote text-center my-5">
+                <p>"Széles termékkínálatunk fontos információi megtalálhatóak egyedi oldalunkon"</p>
+                <footer class="blockquote-footer">Fekete László
+                  <cite title="Source Title">Vállalkozó - Rozsdamentes berendezések</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote text-center my-5">
+                <p>"Szeretném megköszönni Sárik Attila kreatív, lelkiismeretes munkáját. Gördülékeny együttműködésével
+                  lehetővé tette gondolataim formába öntését."</p>
+                <footer class="blockquote-footer">Szalkai Gabriella
+                  <cite title="Source Title">Vállalkozó - Esküvői Szertartásvezető</cite>
+                </footer>
+              </blockquote>
+            </div>
           </div>
+          <a class="carousel-control-prev"
+             href="#carouselExampleIndicators"
+             role="button"
+             data-slide="prev">
+            <span class="carousel-control-prev-icon"
+                  aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next"
+             href="#carouselExampleIndicators"
+             role="button"
+             data-slide="next">
+            <span class="carousel-control-next-icon"
+                  aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-      </section> -->
+      </div>
+    </section>
 
     <!-- <section id="contact">
         <div class="container">
