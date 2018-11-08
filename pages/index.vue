@@ -9,7 +9,7 @@
     <!-- Jumbotron -->
 
     <div class="jumbotron jumbotron-fluid vertical-center">
-      <container>
+      <container class="container">
         <h1>Nincs még weboldalad?</h1>
         <p class="py-3">Nem találnak meg a neten?</p>
         <p>Akkor a legjobb helyen vagy, hogy ez megváltozzon!</p>
