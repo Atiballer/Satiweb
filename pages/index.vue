@@ -23,7 +23,7 @@
       </div> -->
 
       <!-- about -->
-      <div id="about"
+      <!-- <div id="about"
            class="container-fluid">
         <div class="row">
           <div class="col-md-8 col-sm-12">
@@ -38,12 +38,12 @@
               Ma már a mikro- és kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először
               mindent az interneten keresünk. Jelentősen több az elérhető emberek száma online, mint
               offline.
-            </p>
-            <!-- <br>
+            </p> -->
+      <!-- <br>
           <a href="#contact">
             <button class="btn btn-default btn-lg">Érdekel</button>
           </a> -->
-          </div>
+      <!-- </div>
           <div class="col-md-4 col-sm-12">
             <div class="card mb-5">
               <div class="box">
@@ -63,7 +63,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- service -->
       <section id="service"
