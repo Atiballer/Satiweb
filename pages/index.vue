@@ -23,7 +23,7 @@
     <!-- about -->
     <div id="about"
          class="container-fluid">
-      <div class="row slideanim">
+      <div class="row">
         <div class="col-md-8 col-sm-12">
           <h2>Rólam</h2>
           <br>
@@ -65,7 +65,7 @@
     <!-- service -->
     <section id="service"
              class="pb-5">
-      <div class="container slideanim">
+      <div class="container">
         <h2>Szolgáltatásaim</h2>
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4">
@@ -178,7 +178,7 @@
          class="container-fluid text-center">
       <h2>Portfolio</h2>
       <h4>Korábbi munkáim</h4>
-      <div class="row text-center pt-3 slideanim">
+      <div class="row text-center pt-3">
         <div class="col-sm-12 col-md-4">
           <div class="thumbnail">
             <a href="http://www.marsiadrifodrasz.hu">
@@ -217,7 +217,7 @@
         </div>
       </div>
       <br>
-      <div class="row text-center pt-3 slideanim">
+      <div class="row text-center pt-3">
         <div class="col-sm-12 col-md-4">
           <div class="thumbnail">
             <a href="http://www.inoxvilag.hu">
@@ -248,7 +248,7 @@
     </div>
 
     <section id="opinion"
-             class="bg-car py-5 slideanim">
+             class="bg-car py-5">
       <h2>Amit rólam mondtak</h2>
       <div class="container">
         <div id="carouselExampleIndicators"
@@ -327,7 +327,7 @@
     </section>
 
     <section id="contact">
-      <div class="container slideanim">
+      <div class="container">
         <h3 class="text-center text-uppercase">Lépj kapcsolatba velem</h3>
         <p class="text-center w-75 m-auto">Keress bátran alábbi elérhetőségeimen! Megbeszéljük mik az elképzeléseid, hogyan is szeretnél
           megjelenni online.</p>
@@ -397,21 +397,21 @@
 // import $ from "jquery";
 
 export default {
-  components: {},
-  mounted: () => {
-    $(document.body).ready(function() {
-      $(window).scroll(function() {
-        $(".slideanim").each(function() {
-          var pos = $(this).offset().top;
+  components: {}
+  // mounted: () => {
+  //   $(document.body).ready(function() {
+  //     $(window).scroll(function() {
+  //       $(".slideanim").each(function() {
+  //         var pos = $(this).offset().top;
 
-          var winTop = $(window).scrollTop();
-          if (pos < winTop + 600) {
-            $(this).addClass("slide");
-          }
-        });
-      });
-    });
-  }
+  //         var winTop = $(window).scrollTop();
+  //         if (pos < winTop + 600) {
+  //           $(this).addClass("slide");
+  //         }
+  //       });
+  //     });
+  //   });
+  // }
 };
 </script>
 
