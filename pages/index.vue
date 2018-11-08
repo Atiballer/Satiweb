@@ -25,7 +25,7 @@
     <!-- about -->
     <div id="about"
          class="container-fluid">
-      <div class="row">
+      <div class="row slideanim">
         <div class="col-md-8 col-sm-12">
           <h2>Rólam</h2>
           <br>
@@ -69,7 +69,7 @@
              class="pb-5">
       <div class="container">
         <h2>Szolgáltatásaim</h2>
-        <div class="row">
+        <div class="row slideanim">
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="image-flip"
                  ontouchstart="this.classList.toggle('hover');">
@@ -396,21 +396,21 @@
 // import $ from "jquery";
 
 export default {
-  components: {}
-  // mounted: () => {
-  //   $(document.body).ready(function() {
-  //     $(window).scroll(function() {
-  //       $(".slideanim").each(function() {
-  //         var pos = $(this).offset().top;
+  components: {},
+  mounted: () => {
+    $(document.body).ready(function() {
+      $(window).scroll(function() {
+        $(".slideanim").each(function() {
+          var pos = $(this).offset().top;
 
-  //         var winTop = $(window).scrollTop();
-  //         if (pos < winTop + 600) {
-  //           $(this).addClass("slide");
-  //         }
-  //       });
-  //     });
-  //   });
-  // }
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("slide");
+          }
+        });
+      });
+    });
+  }
 };
 </script>
 
@@ -731,15 +731,15 @@ section {
   padding: 5px 10px 10px 5px;
 }
 
-/* .slideanim {
+.slideanim {
   visibility: hidden;
-} */
+}
 
 #opinion h2 {
   text-align: center;
 }
 
-/* .slide {
+.slide {
   animation-name: slide;
   -webkit-animation-name: slide;
   animation-duration: 1s;
@@ -765,7 +765,7 @@ section {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
-} */
+}
 
 .bg-car {
   background-color: #f6f6f6;
