@@ -732,15 +732,15 @@ section {
   padding: 5px 10px 10px 5px;
 }
 
-.slideanim {
+/* .slideanim {
   visibility: hidden;
-}
+} */
 
-.slideanim h2 {
+#opinion h2 {
   text-align: center;
 }
 
-.slide {
+/* .slide {
   animation-name: slide;
   -webkit-animation-name: slide;
   animation-duration: 1s;
@@ -766,7 +766,7 @@ section {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
-}
+} */
 
 .bg-car {
   background-color: #f6f6f6;
