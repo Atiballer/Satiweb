@@ -329,7 +329,7 @@
         </div>
       </section> -->
 
-      <section id="contact">
+      <!-- <section id="contact">
         <div class="container">
           <h3 class="text-center text-uppercase">Lépj kapcsolatba velem</h3>
           <p class="text-center w-75 m-auto">Keress bátran alábbi elérhetőségeimen! Megbeszéljük mik az elképzeléseid, hogyan is szeretnél
@@ -341,7 +341,6 @@
                   <img class="img"
                        src="../assets/phone-call.svg"
                        alt="Telefon">
-                  <!-- <i class="fa fa-phone fa-3x mb-3" aria-hidden="true"></i> -->
                   <h4 class="text-uppercase mb-3 pt-3">Telefon</h4>
                   <h5>06-30/731-3591</h5>
                 </div>
@@ -353,7 +352,7 @@
                   <img class="img"
                        src="../assets/email.svg"
                        alt="E-mail">
-                  <!-- <i class="fa fa-at fa-3x mb-3" aria-hidden="true"></i> -->
+                  
                   <h4 class="text-uppercase mb-3 pt-3">E-mail</h4>
                   <a href="mailto:info@satiweb.hu">
                     <h5>info@satiweb.hu</h5>
@@ -368,7 +367,6 @@
                     <img class="img"
                          src="../assets/facebook.svg"
                          alt="Facebook">
-                    <!-- <i class="fa fa-facebook fa-3x mb-3" aria-hidden="true"></i> -->
                     <h4 class="text-uppercase mb-3 pt-3">Facebook</h4>
                     <h5>Keress Facebookon</h5>
                   </a>
@@ -382,7 +380,7 @@
                     <img class="img"
                          src="../assets/messenger.svg"
                          alt="Messenger">
-                    <!-- <i class="fa fa-facebook-messenger fa-3x mb-3" aria-hidden="true"></i> -->
+                   
                     <h4 class="text-uppercase mb-3 pt-3">Messenger</h4>
                     <h5>Írj Messengeren</h5>
                   </a>
@@ -391,7 +389,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
     </body>
   </div>
