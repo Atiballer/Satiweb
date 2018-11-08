@@ -398,7 +398,7 @@ import $ from "jquery";
 export default {
   components: {},
   mounted: () => {
-    $(document.body).ready(function() {
+    $(document).ready(function() {
       $(window).scroll(function() {
         $(".slideanim").each(function() {
           var pos = $(this).offset().top;
