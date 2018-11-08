@@ -65,107 +65,105 @@
     </div>
 
     <!-- service -->
-    <!-- <section id="service"
-               class="pb-5">
-        <div class="container">
-          <h2>Szolgáltatásaim</h2>
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="image-flip"
-                   ontouchstart="this.classList.toggle('hover');">
-                <div class="mainflip">
-                  <div class="frontside">
-                    <div class="card2">
-                      <div class="card-body text-center">
-                        <p>
-                          <i class="fas fa-desktop fa-3x"></i>
-                        </p>
-                        <h4 class="card-title">Reszponzív design</h4>
-                        <p class="card-text">Minden eszközön teljes átláthatóság, hogy weboldalad látogatói minden infót megtaláljanak!</p> -->
-    <!-- <a href="#"
+    <section id="service"
+             class="pb-5">
+      <div class="container">
+        <h2>Szolgáltatásaim</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip"
+                 ontouchstart="this.classList.toggle('hover');">
+              <div class="mainflip">
+                <div class="frontside">
+                  <div class="card2">
+                    <div class="card-body text-center">
+                      <p>
+                        <i class="fas fa-desktop fa-3x"></i>
+                      </p>
+                      <h4 class="card-title">Reszponzív design</h4>
+                      <p class="card-text">Minden eszközön teljes átláthatóság, hogy weboldalad látogatói minden infót megtaláljanak!</p>
+                      <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
                       </a> -->
-    <!-- </div>
                     </div>
                   </div>
-                  <div class="backside">
-                    <div class="card2">
-                      <div class="card-body text-center mt-4">
-                        <h4 class="card-title">Reszponzív?</h4>
-                        <p class="card-text">Ma már szinte mindent tudunk a mobilunkról intézni, így design szempontjából
-                          a legfontosabb, hogy weboldalad igazodjon a kijelzők méretéhez. Maximális élményt
-                          nyújtson a látogatóidnak.
-                        </p>
-                      </div>
+                </div>
+                <div class="backside">
+                  <div class="card2">
+                    <div class="card-body text-center mt-4">
+                      <h4 class="card-title">Reszponzív?</h4>
+                      <p class="card-text">Ma már szinte mindent tudunk a mobilunkról intézni, így design szempontjából a
+                        legfontosabb, hogy weboldalad igazodjon a kijelzők méretéhez. Maximális élményt
+                        nyújtson a látogatóidnak.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="image-flip"
-                   ontouchstart="this.classList.toggle('hover');">
-                <div class="mainflip">
-                  <div class="frontside">
-                    <div class="card2">
-                      <div class="card-body text-center">
-                        <p>
-                          <i class="fas fa-tasks fa-3x"></i>
-                        
-                        </p>
-                        <h4 class="card-title">Komplett csomag</h4>
-                        <p class="card-text">Minden ami az online létedhez szükséges!</p> -->
-    <!-- <a href="#"
-                         class="btn btn-primary btn-sm">
-                        <i class="fa fa-plus"></i>
-                      </a> -->
-    <!-- </div>
-                    </div>
-                  </div>
-                  <div class="backside">
-                    <div class="card2">
-                      <div class="card-body text-center mt-4">
-                        <h4 class="card-title">Komplett?</h4>
-                        <p class="card-text">Igen! Nem csak egy weboldalt kapsz, hanem egy teljes csomagot! Csak az igényeidet,
-                          az elképzeléseidet kell átadnod, minden mást intézek! Tárhely, domain név,
-                          saját e-mail cím beállítása.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip"
+                 ontouchstart="this.classList.toggle('hover');">
+              <div class="mainflip">
+                <div class="frontside">
+                  <div class="card2">
+                    <div class="card-body text-center">
+                      <p>
+                        <i class="fas fa-tasks fa-3x"></i>
 
-                      </div>
+                      </p>
+                      <h4 class="card-title">Komplett csomag</h4>
+                      <p class="card-text">Minden ami az online létedhez szükséges!</p>
+                      <!-- <a href="#"
+                         class="btn btn-primary btn-sm">
+                        <i class="fa fa-plus"></i>
+                      </a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="backside">
+                  <div class="card2">
+                    <div class="card-body text-center mt-4">
+                      <h4 class="card-title">Komplett?</h4>
+                      <p class="card-text">Igen! Nem csak egy weboldalt kapsz, hanem egy teljes csomagot! Csak az igényeidet,
+                        az elképzeléseidet kell átadnod, minden mást intézek! Tárhely, domain név, saját
+                        e-mail cím beállítása.</p>
+
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="image-flip"
-                   ontouchstart="this.classList.toggle('hover');">
-                <div class="mainflip">
-                  <div class="frontside">
-                    <div class="card2">
-                      <div class="card-body text-center">
-                        <p>
-                          <i class="fas fa-feather-alt fa-3x"></i>
-                          
-                        </p>
-                        <h4 class="card-title">Támogatás</h4>
-                        <p class="card-text">Az elkészült weboldalad átadása után sem maradsz egyedül!</p> -->
-    <!-- <a href="#"
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="image-flip"
+                 ontouchstart="this.classList.toggle('hover');">
+              <div class="mainflip">
+                <div class="frontside">
+                  <div class="card2">
+                    <div class="card-body text-center">
+                      <p>
+                        <i class="fas fa-feather-alt fa-3x"></i>
+
+                      </p>
+                      <h4 class="card-title">Támogatás</h4>
+                      <p class="card-text">Az elkészült weboldalad átadása után sem maradsz egyedül!</p>
+                      <!-- <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
                       </a> -->
-    <!-- </div>
                     </div>
                   </div>
-                  <div class="backside">
-                    <div class="card2">
-                      <div class="card-body text-center mt-4">
-                        <h4 class="card-title">Kapok támogatást?</h4>
-                        <p class="card-text">Kapsz, bizony! Napi használatban van a weblapod, de eljött az idő egy kis frissítésre?
-                          Egy-két változtatást szeretnél az oldaladra? Semmi akadálya, csak jelezd az
-                          igényeidet!
-                        </p>
-                      </div>
+                </div>
+                <div class="backside">
+                  <div class="card2">
+                    <div class="card-body text-center mt-4">
+                      <h4 class="card-title">Kapok támogatást?</h4>
+                      <p class="card-text">Kapsz, bizony! Napi használatban van a weblapod, de eljött az idő egy kis frissítésre?
+                        Egy-két változtatást szeretnél az oldaladra? Semmi akadálya, csak jelezd az igényeidet!
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -173,7 +171,8 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </div>
+    </section>
 
     <!-- porfolio -->
     <!-- <div id="portfolio"
