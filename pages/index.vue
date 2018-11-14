@@ -345,12 +345,12 @@
           <div class="col-sm-12 col-md-6 col-lg-3 my-5">
             <div class="card3 border-0">
               <div class="card-body text-center">
-                <img class="img"
-                     src="../assets/email.svg"
-                     alt="E-mail">
-
-                <h4 class="text-uppercase mb-3 pt-3">E-mail</h4>
                 <a href="mailto:info@satiweb.hu">
+                  <img class="img"
+                       src="../assets/email.svg"
+                       alt="E-mail">
+                  <h4 class="text-uppercase mb-3 pt-3">E-mail</h4>
+
                   <h5>info@satiweb.hu</h5>
                 </a>
               </div>
