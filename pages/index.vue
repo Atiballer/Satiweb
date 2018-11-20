@@ -418,6 +418,10 @@ body {
   color: #434343;
 }
 
+.nav-link {
+  color: #434343;
+}
+
 /* .navbar {
   z-index: 9999;
   border: 0;
