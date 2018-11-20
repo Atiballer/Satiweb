@@ -177,7 +177,8 @@
          class="container-fluid text-center">
       <h2>Portfolio</h2>
       <h4>Korábbi munkáim</h4>
-      <div class="row text-center pt-3 slideanim">
+      <div v-lazy-container="{ selector: 'img' }"
+           class="row text-center pt-3 slideanim">
         <div class="col-sm-12 col-md-4">
           <div class="thumbnail">
             <a href="http://www.marsiadrifodrasz.hu">
