@@ -415,6 +415,7 @@ export default {
 <style>
 body {
   font-family: "Open Sans", sans-serif;
+  color: #434343;
 }
 
 /* .navbar {
@@ -445,7 +446,6 @@ body {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  font-family: "Lato", sans-serif;
   opacity: 0.9;
   /* background-color: white; */
   text-shadow: black;
@@ -497,7 +497,7 @@ a.btn-green:hover {
   margin-bottom: 30px;
   margin-left: 15px;
   margin-right: 15px;
-  font-family: "Raleway", sans-serif;
+  color: #434343;
 }
 
 .container-fluid button {
@@ -612,7 +612,7 @@ section {
 
 #service h2 {
   text-align: center;
-  color: black;
+  color: #434343;
   margin-bottom: 50px;
   text-transform: uppercase;
   size: 1.8rem;
@@ -734,6 +734,10 @@ section {
 
 #opinion h2 {
   text-align: center;
+}
+
+#opinion {
+  color: #434343;
 }
 
 .slide {
