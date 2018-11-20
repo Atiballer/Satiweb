@@ -414,7 +414,7 @@ export default {
 
 <style>
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* .navbar {
@@ -437,7 +437,6 @@ body {
   text-align: center;
   color: white;
   padding-bottom: 1rem;
-  font-family: "Raleway", sans-serif;
   /* background-color: whitesmoke; */
   opacity: 0.9;
 }
