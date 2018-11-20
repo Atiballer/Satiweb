@@ -23,31 +23,31 @@
              id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item px-3">
-                    <a class="nav-link"
+                    <a class="nav-link active"
                        href="#about">
                         <i class="fa fa-drivers-license"></i>
                         Rólam</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link"
+                    <a class="nav-link active"
                        href="#service">
                         <i class="fa fa-pencil-square-o"></i>
                         Szolgáltatások</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link"
+                    <a class="nav-link active"
                        href="#portfolio">
                         <i class="fa fa-th"></i>
                         Munkáim</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link"
+                    <a class="nav-link active"
                        href="#opinion">
                         <i class="fa fa-comments"></i>
                         Vélemények</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link"
+                    <a class="nav-link active"
                        href="#contact">
                         <i class="fa fa-envelope"></i>
                         Kapcsolat</a>
