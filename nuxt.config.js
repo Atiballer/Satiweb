@@ -36,20 +36,11 @@ module.exports = {
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
-      },
-      {
-        rel: "stylesheet",
-        href:
           "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       },
       {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Montserrat"
-      },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Lato"
+        href: "https://fonts.googleapis.com/css?family=Roboto",
+        rel: "stylesheet"
       },
       {
         rel: "stylesheet",
@@ -81,7 +72,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [{ src: "~/plugins/vue-lazyload", ssr: false }],
 
   /*
   ** Nuxt.js modules
