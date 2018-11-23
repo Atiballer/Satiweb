@@ -15,7 +15,19 @@ module.exports = {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: pkg.description }
+      { hid: "description", name: "description", content: pkg.description },
+      {
+        name: "og:title",
+        content: "Atiballer webdesign - Weboldalak tervezése, készítése"
+      },
+      { name: "og:description", content: pkg.description },
+      { name: "og:type", content: "website" },
+      { name: "og:url", content: "https://www.satiweb.hu" },
+      {
+        name: "og:image",
+        content:
+          "http://www.kepfeltoltes.eu/view.php?filename=240satiweb_bg.jpg"
+      }
     ],
     script: [
       { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" },
