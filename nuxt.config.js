@@ -2,6 +2,8 @@ const pkg = require("./package");
 
 const webpack = require("webpack");
 
+const gtmId = "GTM-PBZW7RK";
+
 module.exports = {
   mode: "universal",
 
@@ -77,7 +79,7 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: ["@nuxtjs/sitemap"],
+  modules: [["@nuxtjs/google-tag-manager", { id: gtmId }], "@nuxtjs/sitemap"],
   sitemap: {
     generate: true
   },
