@@ -25,7 +25,7 @@ module.exports = {
       { property: "og:url", content: "https://www.satiweb.hu" },
       {
         property: "og:image",
-        content: "https://imgur.com/Hy1JaBJ"
+        content: "https://i.imgur.com/Hy1JaBJ.jpg"
       }
     ],
     script: [
