@@ -17,7 +17,7 @@ module.exports = {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: pkg.description },
       {
-        name: "og:title",
+        property: "og:title",
         content: "Atiballer webdesign - Weboldalak tervezése, készítése"
       },
       { property: "og:description", content: pkg.description },
@@ -25,8 +25,7 @@ module.exports = {
       { property: "og:url", content: "https://www.satiweb.hu" },
       {
         property: "og:image",
-        content:
-          "http://www.kepfeltoltes.eu/view.php?filename=240satiweb_bg.jpg"
+        content: "https://www.satiweb.hu/_nuxt/img/ca1834c.jpg"
       }
     ],
     script: [
