@@ -25,7 +25,7 @@ module.exports = {
       { property: "og:url", content: "https://www.satiweb.hu" },
       {
         property: "og:image",
-        content: "https://www.satiweb.hu/_nuxt/img/ca1834c.jpg"
+        content: "https://imgur.com/a/VLat1dK"
       }
     ],
     script: [
