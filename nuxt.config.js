@@ -20,11 +20,11 @@ module.exports = {
         name: "og:title",
         content: "Atiballer webdesign - Weboldalak tervezése, készítése"
       },
-      { name: "og:description", content: pkg.description },
-      { name: "og:type", content: "website" },
-      { name: "og:url", content: "https://www.satiweb.hu" },
+      { property: "og:description", content: pkg.description },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://www.satiweb.hu" },
       {
-        name: "og:image",
+        property: "og:image",
         content:
           "http://www.kepfeltoltes.eu/view.php?filename=240satiweb_bg.jpg"
       }
