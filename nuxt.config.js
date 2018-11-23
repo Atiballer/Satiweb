@@ -78,6 +78,9 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: ["@nuxtjs/sitemap"],
+  sitemap: {
+    generate: true
+  },
 
   /*
 ** Router change
