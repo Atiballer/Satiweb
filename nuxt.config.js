@@ -81,8 +81,14 @@ module.exports = {
   */
   modules: [
     ["@nuxtjs/google-tag-manager", { id: "GTM-PBZW7RK" }],
+    ["@nuxtjs/google-analytics"],
     "@nuxtjs/sitemap"
   ],
+
+  "google-analytics": {
+    id: "UA-86922186-3"
+  },
+
   sitemap: {
     hostname: "https://www.satiweb.hu",
     generate: true
