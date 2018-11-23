@@ -77,7 +77,7 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [],
+  modules: ["@nuxtjs/sitemap"],
 
   /*
 ** Router change
