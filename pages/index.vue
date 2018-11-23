@@ -45,7 +45,8 @@
           <div class="card mb-5">
             <div class="box">
               <div class="img">
-                <img src="../assets/sati2.jpg">
+                <img src="../assets/sati2.jpg"
+                     alt="Sárik Attila">
               </div>
               <h2>Sárik Attila
                 <br>
@@ -311,7 +312,7 @@
              data-slide="prev">
             <span class="carousel-control-prev-icon"
                   aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span class="sr-only">Előző</span>
           </a>
           <a class="carousel-control-next"
              href="#carouselExampleIndicators"
@@ -319,7 +320,7 @@
              data-slide="next">
             <span class="carousel-control-next-icon"
                   aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <span class="sr-only">Következő</span>
           </a>
         </div>
       </div>
@@ -336,7 +337,7 @@
               <div class="card-body text-center">
                 <img class="img"
                      src="../assets/phone-call.svg"
-                     alt="Telefon">
+                     alt="Hívj telefon">
                 <h4 class="text-uppercase mb-3 pt-3">Telefon</h4>
                 <h5>06-30/731-3591</h5>
               </div>
@@ -348,7 +349,7 @@
                 <a href="mailto:info@satiweb.hu">
                   <img class="img"
                        src="../assets/email.svg"
-                       alt="E-mail">
+                       alt="Írj e-mailt">
                   <h4 class="text-uppercase mb-3 pt-3">E-mail</h4>
 
                   <h5>info@satiweb.hu</h5>
@@ -362,7 +363,7 @@
                 <a href="http://fb.me/Atiballer">
                   <img class="img"
                        src="../assets/facebook.svg"
-                       alt="Facebook">
+                       alt="Keress Facebook-n">
                   <h4 class="text-uppercase mb-3 pt-3">Facebook</h4>
                   <h5>Keress Facebookon</h5>
                 </a>
@@ -375,7 +376,7 @@
                 <a href="http://m.me/Atiballer">
                   <img class="img"
                        src="../assets/messenger.svg"
-                       alt="Messenger">
+                       alt="Írj Messenger-en">
 
                   <h4 class="text-uppercase mb-3 pt-3">Messenger</h4>
                   <h5>Írj Messengeren</h5>
