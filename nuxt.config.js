@@ -17,6 +17,10 @@ module.exports = {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: pkg.description },
       {
+        name: "google-site-verification",
+        content: "dO5dSkWXkCuGBjmv0R3bm99UCMHIIbQ_DmZrDLOjpOQ"
+      },
+      {
         property: "og:title",
         content: "Atiballer webdesign - Weboldalak tervezése, készítése"
       },
