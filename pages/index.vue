@@ -27,14 +27,16 @@
         <div class="col-md-8 col-sm-12">
           <h2>Rólam</h2>
           <br>
-          <p>Üdvözöllek az oldalamon, Sárik Attila vagyok. A programozás már a gimnáziumi időkben is érdekelt,
-            de a suli végén a sport miatt más mellett döntöttem. Ezután 2016-ba újra előtérbe került
+          <p>Üdvözöllek az oldalamon, Sárik Attila vagyok. A programozás már a gimnáziumi időkben érdekelt,
+            de a suli végén a sport miatt más mellett döntöttem. Ezután 2016-ban újra előtérbe került
             az informatika világa, most már fókuszban a weboldalakkal. Úgy éreztem itt tudok értéket
             adni, amire másoknak is szüksége van. Azóta folyamatosan ezzel foglalkozom, tanulok, képzem
-            magam, hisz ez az a világ, ahol hónapról hónapra változnak a trendek. Célom, hogy a mai modern
-            megjelenést tudjam biztosítani partnereimnek, a számukra szükséges funkciókkal együtt. Ma
-            már a mikro- és kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először mindent
-            az interneten keresünk. Jelentősen több az elérhető emberek száma online, mint offline.
+            magam, hisz ez az a világ, ahol hónapról hónapra változnak a trendek. Célom, hogy a 2019-ben
+            elvárható modern megjelenést tudjam biztosítani partnereimnek, a számukra szükséges funkciókkal
+            együtt. Ma már a kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először
+            mindent az interneten keresünk. Jelentősen több az elérhető emberek száma online, mint offline.
+            Ha nincs még weboldalad, vagy a régi, elavult design helyett szeretnél újat, akkor keress
+            elérhetőségeimen.
           </p>
           <!-- <br>
           <a href="#contact">
