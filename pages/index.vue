@@ -14,7 +14,7 @@
         <div class="container jumbdiv">
           <a href="#contact">
             <button class="btn btn-green btn-lg mt-3"
-                    role="button">Weboldalt akarok!</button>
+                    role="button">Weboldal készítés!</button>
           </a>
         </div>
       </container>
@@ -28,13 +28,13 @@
           <h2>Rólam</h2>
           <br>
           <p>Üdvözöllek az oldalamon, Sárik Attila vagyok. A programozás már a gimnáziumi időkben is érdekelt,
-            de a suli végén a sport miatt más mellett döntöttem. Pár éve, 2016-ban, aztán újra előtérbe
-            került az informatika világa, most már fókuszban a weboldalakkal. Úgy éreztem itt tudok értéket
-            adni, amire másoknak is szüksége van. Azóta folyamatosan tanulok, képzem magam, hisz ez az
-            a világ, ahol hónapról hónapra változnak a trendek. Célom, hogy a mai modern megjelenést
-            tudjam biztosítani partnereimnek, a számukra leghasznosabb funkciókkal együtt. Ma már a mikro-
-            és kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először mindent az interneten
-            keresünk. Jelentősen több az elérhető emberek száma online, mint offline.
+            de a suli végén a sport miatt más mellett döntöttem. Ezután 2016-ba újra előtérbe került
+            az informatika világa, most már fókuszban a weboldalakkal. Úgy éreztem itt tudok értéket
+            adni, amire másoknak is szüksége van. Azóta folyamatosan ezzel foglalkozom, tanulok, képzem
+            magam, hisz ez az a világ, ahol hónapról hónapra változnak a trendek. Célom, hogy a mai modern
+            megjelenést tudjam biztosítani partnereimnek, a számukra szükséges funkciókkal együtt. Ma
+            már a mikro- és kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először mindent
+            az interneten keresünk. Jelentősen több az elérhető emberek száma online, mint offline.
           </p>
           <!-- <br>
           <a href="#contact">
@@ -240,6 +240,19 @@
             </a>
             <p class="text-center pt-2">
               <strong>Csipke-Esküvői Szertartás</strong>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="thumbnail">
+            <a href="https://www.hotel-lelle.hu">
+              <img class="img-responsive"
+                   src="../assets/hotel-lelle.png"
+                   alt="Hotel Lelle weboldala"
+                   width="100%">
+            </a>
+            <p class="text-center pt-2">
+              <strong>Hotel-Lelle</strong>
             </p>
           </div>
         </div>

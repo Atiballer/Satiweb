@@ -11,7 +11,8 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "Atiballer webdesign: Weboldalak készítése profin és gyorsan, elérhető áron",
+    title:
+      "Satiweb: Weboldalak készítése profin és gyorsan, elérhető áron. Legyen szó céges weboldalról, webshop készítéséről, a legjobb helyen vagy.",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -89,7 +90,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [{ src: "~/plugins/vue-lazyload", ssr: false }],
+  plugins: [],
 
   /*
   ** Nuxt.js modules
@@ -118,7 +119,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ["jquery", "popper.js", "bootstrap"],
     plugins: [
       new webpack.ProvidePlugin({
         $: "jquery",
@@ -130,8 +130,8 @@ module.exports = {
     /*
       ** Run ESLint on save
       */
-    extend(config, { isDev, isClient }) {
-      if (isDev && isClient) {
+    extend(config, ctx) {
+      if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: "pre",
           test: /\.(js|vue)$/,
