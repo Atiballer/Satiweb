@@ -181,7 +181,7 @@
       <h2>Portfolio</h2>
       <h4>Korábbi munkáim</h4>
       <div class="row text-center pt-3 slideanim">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-3">
           <div class="thumbnail">
             <a href="http://www.marsiadrifodrasz.hu">
               <img class="img-responsive"
@@ -193,7 +193,7 @@
             </p>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-3">
           <div class="thumbnail">
             <a href="http://www.mmm98bt.hu">
               <img class="img-responsive"
@@ -205,9 +205,9 @@
             </p>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-3">
           <div class="thumbnail">
-            <a href="http://www.salyisuli.hu.hu">
+            <a href="http://www.salyisuli.hu">
               <img class="img-responsive"
                    src="../assets/salyisuli.png"
                    alt="Sályi-Suli autósiskola weboldala">
@@ -217,35 +217,7 @@
             </p>
           </div>
         </div>
-      </div>
-      <br>
-      <div class="row text-center pt-3 slideanim">
-        <div class="col-sm-12 col-md-4">
-          <div class="thumbnail">
-            <a href="http://www.inoxvilag.hu">
-              <img class="img-responsive"
-                   src="../assets/inoxvilag.png"
-                   alt="Inoxvilág weboldala">
-            </a>
-            <p class="text-center pt-2">
-              <strong>Rozsdamentes bútorok</strong>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="thumbnail">
-            <a href="http://www.csipke-eskuvoiszertartas.hu">
-              <img class="img-responsive"
-                   src="../assets/csipke.png"
-                   alt="Szalkai Gabriella weboldala"
-                   width="100%">
-            </a>
-            <p class="text-center pt-2">
-              <strong>Csipke-Esküvői Szertartás</strong>
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-3">
           <div class="thumbnail">
             <a href="https://www.hotel-lelle.hu">
               <img class="img-responsive"
@@ -258,6 +230,59 @@
             </p>
           </div>
         </div>
+      </div>
+      <br>
+      <div class="row text-center pt-3 slideanim">
+        <div class="col-sm-12 col-md-3">
+          <div class="thumbnail">
+            <a href="https://www.3dtargyfoto.hu">
+              <img class="img-responsive"
+                   src="../assets/3dtargyfoto.png"
+                   alt="3D Tárgyfotó weboldala">
+            </a>
+            <p class="text-center pt-2">
+              <strong>3D Tárgyfotózás</strong>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <div class="thumbnail">
+            <a href="https://www.fatrade.hu">
+              <img class="img-responsive"
+                   src="../assets/fatrade.png"
+                   alt="Fa Trade Kft weboldala">
+            </a>
+            <p class="text-center pt-2">
+              <strong>Lapszabászat, barkácsbolt</strong>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <div class="thumbnail">
+            <a href="http://www.inoxvilag.hu">
+              <img class="img-responsive"
+                   src="../assets/inoxvilag.png"
+                   alt="Inoxvilág weboldala">
+            </a>
+            <p class="text-center pt-2">
+              <strong>Rozsdamentes bútorok</strong>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <div class="thumbnail">
+            <a href="http://www.csipke-eskuvoiszertartas.hu">
+              <img class="img-responsive"
+                   src="../assets/csipke.png"
+                   alt="Szalkai Gabriella weboldala"
+                   width="100%">
+            </a>
+            <p class="text-center pt-2">
+              <strong>Csipke-Esküvői Szertartás</strong>
+            </p>
+          </div>
+        </div>
+
       </div>
       <br>
     </div>
@@ -320,6 +345,23 @@
                 </footer>
               </blockquote>
             </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote text-center my-5">
+                <p>"Elvárásaimnak megfelelő profi munka. Ajánlom mindenkinek!"</p>
+                <footer class="blockquote-footer">Budafalvi József
+                  <cite title="Source Title">Vállalkozó - Fa Trade Kft</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <!-- <div class="carousel-item">
+              <blockquote class="blockquote text-center my-5">
+                <p>"Szeretném megköszönni Sárik Attila kreatív, lelkiismeretes munkáját. Gördülékeny együttműködésével
+                  lehetővé tette gondolataim formába öntését."</p>
+                <footer class="blockquote-footer">Szalkai Gabriella
+                  <cite title="Source Title">Vállalkozó - Esküvői Szertartásvezető</cite>
+                </footer>
+              </blockquote>
+            </div> -->
           </div>
           <a class="carousel-control-prev"
              href="#carouselExampleIndicators"
