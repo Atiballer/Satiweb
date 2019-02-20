@@ -1,7 +1,7 @@
 {
   "name": "satiweb-nuxt",
   "version": "1.0.0",
-  "description": "Weboldal készítés. Legyen szó bemutatkozó oldalról, blogról, webshopról a legjobb helyen vagy. Hisz ma már a kisvállalkozásoknak is szüksége van weboldalra.",
+  "description": "Honlapkészítés. Legyen szó bemutatkozó oldalról, blogról, webshopról a legjobb helyen vagy. Hisz ma már a kisvállalkozásoknak is szüksége van weboldalra.",
   "author": "Sárik Attila",
   "private": true,
   "scripts": {

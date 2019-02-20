@@ -8,11 +8,11 @@ module.exports = {
   mode: "universal",
 
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title:
-      "Satiweb: Weboldalak készítése profin és gyorsan, elérhető áron. Legyen szó céges weboldalról, webshop készítéséről, a legjobb helyen vagy.",
+      "Satiweb: Weboldalak készítése profin és gyorsan, elérhető áron. Legyen szó céges honlapról, webshop készítéséről, a legjobb helyen vagy.",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -78,23 +78,23 @@ module.exports = {
   },
 
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: "#fff" },
 
   /*
-  ** Global CSS
-  */
+   ** Global CSS
+   */
   css: [],
 
   /*
-  ** Plugins to load before mounting the App
-  */
+   ** Plugins to load before mounting the App
+   */
   plugins: [],
 
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
     ["@nuxtjs/google-tag-manager", { id: "GTM-PBZW7RK" }],
     ["@nuxtjs/google-analytics"],
@@ -111,13 +111,13 @@ module.exports = {
   },
 
   /*
-** Router change
-*/
+   ** Router change
+   */
   router: {},
 
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     plugins: [
       new webpack.ProvidePlugin({
@@ -128,8 +128,8 @@ module.exports = {
       })
     ],
     /*
-      ** Run ESLint on save
-      */
+     ** Run ESLint on save
+     */
     extend(config, ctx) {
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({

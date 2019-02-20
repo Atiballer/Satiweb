@@ -14,7 +14,7 @@
         <div class="container jumbdiv">
           <a href="#contact">
             <button class="btn btn-green btn-lg mt-3"
-                    role="button">Weboldal készítés!</button>
+                    role="button">Honlapkészítés!</button>
           </a>
         </div>
       </container>
@@ -33,10 +33,9 @@
             adni, amire másoknak is szüksége van. Azóta folyamatosan ezzel foglalkozom, tanulok, képzem
             magam, hisz ez az a világ, ahol hónapról hónapra változnak a trendek. Célom, hogy a 2019-ben
             elvárható modern megjelenést tudjam biztosítani partnereimnek, a számukra szükséges funkciókkal
-            együtt. Ma már a kisvállalkozásoknak is ajánlott, hogy legyen weboldaluk, hiszen először
-            mindent az interneten keresünk. Jelentősen több az elérhető emberek száma online, mint offline.
-            Ha nincs még weboldalad, vagy a régi, elavult design helyett szeretnél újat, akkor keress
-            elérhetőségeimen.
+            együtt. Ma már a kisvállalkozásoknak is ajánlott, hogy legyen honlapjuk, hiszen először mindent
+            az interneten keresünk. Jelentősen több az elérhető emberek száma online, mint offline. Ha
+            nincs még weboldalad, vagy a régi, elavult design helyett szeretnél újat, akkor keress elérhetőségeimen.
           </p>
           <!-- <br>
           <a href="#contact">
@@ -52,7 +51,7 @@
               </div>
               <h2>Sárik Attila
                 <br>
-                <span>Weboldalak készítése</span>
+                <span>Honlapkészítés</span>
               </h2>
               <p class="font-italic"> "Amíg azt teszed, amit eddig, azt kapod amit eddig"
               </p>
@@ -128,7 +127,7 @@
                   <div class="card2">
                     <div class="card-body text-center mt-4">
                       <h4 class="card-title">Komplett?</h4>
-                      <p class="card-text">Igen! Nem csak egy weboldalt kapsz, hanem egy teljes csomagot! Csak az igényeidet,
+                      <p class="card-text">Igen! Nem csak egy honlapot kapsz, hanem egy teljes csomagot! Csak az igényeidet,
                         az elképzeléseidet kell átadnod, minden mást intézek! Tárhely, domain név, saját
                         e-mail cím beállítása.</p>
 
@@ -150,7 +149,7 @@
 
                       </p>
                       <h4 class="card-title">Támogatás</h4>
-                      <p class="card-text">Az elkészült weboldalad átadása után sem maradsz egyedül!</p>
+                      <p class="card-text">Az elkészült honlapod átadása után sem maradsz egyedül!</p>
                       <a href="#"
                          class="btn btn-primary btn-sm">
                         <i class="fa fa-plus"></i>
