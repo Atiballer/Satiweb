@@ -1,6 +1,6 @@
-# satiweb-nuxt
+# Satiweb_landing_v2
 
-> satiweb nuxt
+> My hunky-dory Nuxt.js project
 
 ## Build Setup
 

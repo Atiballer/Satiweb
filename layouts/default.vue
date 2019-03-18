@@ -1,22 +1,25 @@
 <template>
   <div>
     <Navigation></Navigation>
-    <nuxt/>
+    <no-ssr>
+      <Parallax></Parallax>
+    </no-ssr>
+    <nuxt />
     <Footer></Footer>
     <Cookie></Cookie>
   </div>
 </template>
 
-<style>
-</style>
-
 <script>
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import Cookie from "@/components/Cookie";
-
+import Navigation from '@/components/Navigation'
+import Parallax from '@/components/Parallax'
+import Footer from '@/components/Footer'
+import Cookie from '@/components/Cookie'
 export default {
-  components: { Navigation, Footer, Cookie }
-};
+  components: { Navigation, Parallax, Footer, Cookie }
+}
 </script>
 
+
+<style>
+</style>

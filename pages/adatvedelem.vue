@@ -284,20 +284,20 @@
 
 <script>
 export default {
-  name: "aszf",
+  name: 'aszf',
   head() {
     return {
-      title: "Adatvédelmi tájékoztató",
+      title: 'Adatvédelmi tájékoztató',
       meta: [
         {
-          hid: "description",
-          name: "description",
-          content: "Atiballer Webdesign Adatvédelmi Tájékoztatója"
+          hid: 'description',
+          name: 'description',
+          content: 'Atiballer Webdesign Adatvédelmi Tájékoztatója'
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style>

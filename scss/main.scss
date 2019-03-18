@@ -1,0 +1,32 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  background-color: white;
+}
+
+.navbar-brand {
+  padding-right: 3rem;
+}
+
+.nav-item {
+  padding-right: 1.5rem !important;
+}
+
+.is-parallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.line {
+  clear: both;
+  position: relative;
+  width: 70%;
+  margin: 60px auto;
+  border-top: 1px solid #eee;
+}

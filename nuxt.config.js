@@ -1,143 +1,124 @@
-const pkg = require("./package");
+const pkg = require('./package')
 
-const webpack = require("webpack");
-
-const gtmId = "GTM-PBZW7RK";
+const webpack = require('webpack')
 
 module.exports = {
-  mode: "universal",
+  mode: 'universal',
 
   /*
-   ** Headers of the page
-   */
+  ** Headers of the page
+  */
   head: {
-    title:
-      "Satiweb: Weboldalak készítése profin és gyorsan, elérhető áron. Legyen szó céges honlapról, webshop készítéséről, a legjobb helyen vagy.",
+    title: 'Satiweb - Weboldalak készítése, hirdetéskezelés',
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: pkg.description },
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: pkg.description },
       {
-        name: "google-site-verification",
-        content: "dO5dSkWXkCuGBjmv0R3bm99UCMHIIbQ_DmZrDLOjpOQ"
+        name: 'google-site-verification',
+        content: 'dO5dSkWXkCuGBjmv0R3bm99UCMHIIbQ_DmZrDLOjpOQ'
       },
       {
-        property: "og:title",
-        content: "Atiballer webdesign - Weboldalak tervezése, készítése"
+        property: 'og:title',
+        content: 'Satiweb - Weboldalak tervezése, készítése'
       },
-      { property: "og:description", content: pkg.description },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://www.satiweb.hu" },
+      { property: 'og:description', content: pkg.description },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'https://www.satiweb.hu' },
       {
-        property: "og:image",
-        content: "https://i.imgur.com/Hy1JaBJ.jpg"
+        property: 'og:image',
+        content: 'https://i.imgur.com/bV7QHKL.jpg'
       }
     ],
     script: [
-      { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" },
       {
-        src:
-          "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js'
       },
       {
         src:
-          "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'
+      },
+      {
+        src:
+          'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
       }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        rel: "stylesheet",
+        rel: 'stylesheet',
         href:
-          "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
       },
       {
-        rel: "stylesheet",
-        href:
-          "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        href: 'https://fonts.googleapis.com/css?family=Work+Sans:200,300,400',
+        rel: 'stylesheet'
       },
       {
-        href: "https://fonts.googleapis.com/css?family=Roboto",
-        rel: "stylesheet"
-      },
-      {
-        rel: "stylesheet",
-        href:
-          "https://cdn.jsdelivr.net/npm/fork-awesome@1.1.0/css/fork-awesome.min.css"
-      },
-      {
-        rel: "stylesheet",
-        href: "https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-      },
-      {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800%7C;Roboto:100,500"
+        rel: 'stylesheet',
+        href: 'https://use.fontawesome.com/releases/v5.7.2/css/all.css'
       }
     ]
   },
 
   /*
-   ** Customize the progress-bar color
-   */
-  loading: { color: "#fff" },
+  ** Customize the progress-bar color
+  */
+  loading: { color: '#fff' },
 
   /*
-   ** Global CSS
-   */
-  css: [],
+  ** Global CSS
+  */
+  css: ['~/scss/main.scss'],
 
   /*
-   ** Plugins to load before mounting the App
-   */
-  plugins: [],
-
-  /*
-   ** Nuxt.js modules
-   */
-  modules: [
-    ["@nuxtjs/google-tag-manager", { id: "GTM-PBZW7RK" }],
-    ["@nuxtjs/google-analytics"],
-    "@nuxtjs/sitemap"
+  ** Plugins to load before mounting the App
+  */
+  plugins: [
+    { src: '~/plugins/vue-parallax.js', mode: 'client' },
+    { src: '~/plugins/aos', mode: 'client' },
+    { src: '~/plugins/vue-easyslider.js', mode: 'client' }
   ],
 
-  "google-analytics": {
-    id: "UA-86922186-3"
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+    // Doc: https://axios.nuxtjs.org/usage
+    '@nuxtjs/axios',
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-PBZW7RK' }],
+    '@nuxtjs/sitemap'
+  ],
+  /*
+  ** Axios module configuration
+  */
+  axios: {
+    // See https://github.com/nuxt-community/axios-module#options
   },
 
   sitemap: {
-    hostname: "https://www.satiweb.hu",
+    hostname: 'https://www.satiweb.hu',
     generate: true
   },
 
   /*
-   ** Router change
-   */
-  router: {},
-
-  /*
-   ** Build configuration
-   */
+  ** Build configuration
+  */
   build: {
-    plugins: [
-      new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jquery",
-        jquery: "jquery",
-        "window.jQuery": "jquery"
-      })
-    ],
     /*
-     ** Run ESLint on save
-     */
+    ** You can extend webpack config here
+    */
     extend(config, ctx) {
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
-          enforce: "pre",
+          enforce: 'pre',
           test: /\.(js|vue)$/,
-          loader: "eslint-loader",
-          exclude: /(node_modules)/
-        });
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/,
+          options: {
+            fix: true
+          }
+        })
       }
     },
 
@@ -146,29 +127,29 @@ module.exports = {
         test: /\.(scss|sass|css)$/,
         use: [
           {
-            loader: "style-loader"
+            loader: 'style-loader'
           },
           {
-            loader: "css-loader"
+            loader: 'css-loader'
           }
         ]
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/,
-        loader: "url-loader",
+        loader: 'url-loader',
         query: {
           limit: 1000,
-          name: "img/[name].[hash:7].[ext]"
+          name: 'img/[name].[hash:7].[ext]'
         }
       },
       {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
-        loader: "url-loader",
+        loader: 'url-loader',
         query: {
           limit: 1000,
-          name: "fonts/[name].[hash:7].[ext]"
+          name: 'fonts/[name].[hash:7].[ext]'
         }
       }
     ]
   }
-};
+}
