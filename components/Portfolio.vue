@@ -36,7 +36,7 @@
         <div class="thumbnail">
           <a href="http://www.salyisuli.hu">
             <img class="img-responsive"
-                 src="../assets/salyisuli.png"
+                 src="../assets/salyi_suli.png"
                  alt="Sályi-Suli autósiskola weboldala">
           </a>
           <p class="text-center pt-2">
@@ -120,7 +120,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped>
