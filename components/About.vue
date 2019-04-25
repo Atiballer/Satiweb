@@ -8,7 +8,8 @@
         <h5>Örülök, hogy Neked is fontos, hogy legyen saját weboldalad!</h5>
 
         <p> Sárik Attila vagyok, 2016-ban indítottam el saját vállalkozásomat, korábbi céljaimnak
-          megfelelően az informatika világában. <br>Hiszek abban, hogy a folyamatos
+          megfelelően az informatika világában. Fókuszban új weboldalak készítésével, illetve
+          hirdetések beállításában, kezelésében. <br>Hiszek abban, hogy a folyamatos
           tanulás, képzés
           elengedhetetlen, hisz ez az a világ, ahol hónapról hónapra változnak a trendek. <br>
           Célom, hogy a
