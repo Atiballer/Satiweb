@@ -19,63 +19,63 @@
 </template>
 
 <script>
-import { Slider, SliderItem } from 'vue-easy-slider'
+import { Slider, SliderItem } from "vue-easy-slider";
 export default {
   data() {
     return {
       items: [
         {
           title:
-            '"Nagy segítség az új weboldalam, hisz vendégeim több mint fele, már online talál meg"',
-          name: 'Marsi Adrienn',
-          source: 'Női-férfi-gyermek fodrász'
+            '"Szolnokon a fodrászok közül a harmadiknak hoz be a Google engem és ez megspórol nekem sok-sok munkát és utánajárást, ha weblapot szeretnétek vagy már van, de egyedibbet szeretnétek, hogy kilógjatok a tömegből a Satiweb a legjobb választás"',
+          name: "Marsi Adrienn",
+          source: "Női-férfi-gyermek fodrász"
         },
         {
           title:
             '"Autósiskolámnak mai kornak megfelelő megjelenést kaptam, rendszeres karbantartással"',
-          name: 'Sályi Sándor',
-          source: 'Autósiskola vezető'
+          name: "Sályi Sándor",
+          source: "Autósiskola vezető"
         },
         {
           title:
             '"Cégünk többféle szolgáltatást is nyújt, ezeket oldalunkon könnyen megtalálják a látogatók"',
-          name: 'Marsi Attiláné',
-          source: 'Biztosítás, szaktanácsadás'
+          name: "Marsi Attiláné",
+          source: "Biztosítás, szaktanácsadás"
         },
         {
           title:
-            '"Széles termékkínálatunk fontos információi megtalálhatóak egyedi oldalunkon"',
-          name: 'Fekete László',
-          source: 'Rozsdamentes berendezések'
+            '"Weboldalam a megbeszélt időpontra elkészült, és mellé még kaptam hirdetés kezelést is, így tudok a saját munkámmal foglalkozni"',
+          name: "Tóth Norbert",
+          source: "Norbiklíma tulajdonosa"
         },
         {
           title:
             '"Szeretném megköszönni Sárik Attila kreatív, lelkiismeretes munkáját. Gördülékeny együttműködésével lehetővé tette gondolataim formába öntését"',
-          name: 'Szalkai Gabriella',
-          source: 'Esküvői Szertartásvezető'
+          name: "Szalkai Gabriella",
+          source: "Esküvői Szertartásvezető"
         },
         {
           title: '"Elvárásaimnak megfelelő profi munka. Ajánlom mindenkinek"',
-          name: 'Budafalvi József',
-          source: 'Fa Trade Kft'
+          name: "Budafalvi József",
+          source: "Fa Trade Kft"
         },
         {
           title:
             '"Vendégeink igénylik, hogy első körben minden információt megkapjanak a neten. Ehhez kaptunk egy profi weboldalt"',
-          name: 'Juhászné Garics Erika',
-          source: 'Hotel Lelle'
+          name: "Juhászné Garics Erika",
+          source: "Hotel Lelle"
         }
       ],
       color: [
         {
-          backgroundColor: 'white',
-          width: '100%',
-          height: '100%'
+          backgroundColor: "white",
+          width: "100%",
+          height: "100%"
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped>

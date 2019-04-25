@@ -1,9 +1,9 @@
 <template>
   <section id="kapcsolat">
     <div class="container pt-5">
-      <h3 class="text-center text-uppercase">Lépj kapcsolatba velem</h3>
-      <p class="text-center w-75 m-auto">Keress bátran alábbi elérhetőségeimen! Megbeszéljük mik az
-        elképzeléseid, milyen weboldalt szeretnél!</p>
+      <h3 class="text-center text-uppercase">Kapcsolat</h3>
+      <p class="text-center w-75 m-auto">Jelentkezz még ma, hogy minél hamarabb legyen egy egyedi,
+        saját weboldalad, pontosan amire szükséged van!</p>
       <div class="row slideanim">
         <div class="col-sm-12 col-md-6 col-lg-3 my-5">
           <div class="card3 border-0">
@@ -63,7 +63,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped>

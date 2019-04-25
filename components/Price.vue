@@ -49,7 +49,7 @@
                 <strong>5-10</strong> aloldal
               </li>
               <li>
-                <strong>Admin</strong> felület
+                <strong>Szerkesztő</strong> felület
               </li>
               <li>
                 <strong>Egyedi</strong> funkciók
@@ -219,8 +219,8 @@
 </template>
 
 <script>
-import axios from 'axios'
-import Modal from '~/components/Modal'
+import axios from "axios";
+import Modal from "~/components/Modal";
 
 export default {
   components: {
@@ -230,58 +230,58 @@ export default {
     return {
       showModal: false,
       fields: {
-        name: '',
-        email: '',
-        message: '',
+        name: "",
+        email: "",
+        message: "",
         checkbox: false
       },
       postSuccess: null,
       errors: []
-    }
+    };
   },
   methods: {
     openModal() {
-      this.showModal = true
+      this.showModal = true;
     },
     closeModal() {
-      this.showModal = false
+      this.showModal = false;
     },
     submitForm() {
-      this.errors = []
+      this.errors = [];
 
       if (!this.fields.name) {
-        this.errors.push('Név megadása szükséges.')
+        this.errors.push("Név megadása szükséges.");
       }
       if (!this.fields.email) {
-        this.errors.push('E-mail cím megadása szükséges.')
+        this.errors.push("E-mail cím megadása szükséges.");
       } else if (!this.validEmail(this.fields.email)) {
-        this.errors.push('Valós e-mail címet írj be.')
+        this.errors.push("Valós e-mail címet írj be.");
       }
       if (!this.fields.checkbox) {
-        this.errors.push('Az adatvédelmi tájékoztató elfogadása szükséges.')
+        this.errors.push("Az adatvédelmi tájékoztató elfogadása szükséges.");
       }
 
       if (!this.errors.length) {
         return axios
           .post(
-            'https://satiweb.firebaseio.com/contactMessages.json',
+            "https://satiweb.firebaseio.com/contactMessages.json",
             this.fields
           )
           .then(() => {
-            this.postSuccess = true
-            this.fields = {}
+            this.postSuccess = true;
+            this.fields = {};
           })
           .catch(() => {
-            this.postSuccess = false
-          })
+            this.postSuccess = false;
+          });
       }
     },
     validEmail: function(email) {
-      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-      return re.test(email)
+      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
     }
   }
-}
+};
 </script>
 
 
@@ -341,7 +341,7 @@ label {
   vertical-align: baseline;
 }
 .pricing-price:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100px;
   border: 0;

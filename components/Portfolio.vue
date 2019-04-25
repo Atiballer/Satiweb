@@ -2,7 +2,7 @@
   <div id="portfolio"
        class="container-fluid text-center pt-5">
     <h2>Portfolio</h2>
-    <h4>Néhány korábbi munkám</h4>
+    <h4>Néhány korábbi weboldal</h4>
     <div class="row text-center pt-3"
          data-aos="zoom-in"
          data-aos-duration="2000"
@@ -90,10 +90,10 @@
       </div>
       <div class="col-sm-12 col-md-3">
         <div class="thumbnail">
-          <a href="http://www.inoxvilag.hu">
+          <a href="https://www.norbiklima.hu">
             <img class="img-responsive"
-                 src="../assets/inoxvilag.png"
-                 alt="Inoxvilág weboldala">
+                 src="../assets/norbiklima.png"
+                 alt="Norbiklíma weboldala">
           </a>
           <p class="text-center pt-2">
             <strong>Rozsdamentes bútorok</strong>
