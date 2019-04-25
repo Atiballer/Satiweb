@@ -96,7 +96,7 @@
                  alt="Norbiklíma weboldala">
           </a>
           <p class="text-center pt-2">
-            <strong>Rozsdamentes bútorok</strong>
+            <strong>Norbiklíma, klímatelepítés</strong>
           </p>
         </div>
       </div>
