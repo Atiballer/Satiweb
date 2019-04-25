@@ -34,7 +34,7 @@
       </div>
       <div class="col-sm-12 col-md-3">
         <div class="thumbnail">
-          <a href="http://www.salyisuli.hu">
+          <a href="https://www.salyisuli.hu">
             <img class="img-responsive"
                  src="../assets/salyi_suli.png"
                  alt="Sályi-Suli autósiskola weboldala">
