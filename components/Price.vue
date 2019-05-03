@@ -34,7 +34,8 @@
                     id="contactButton">Érdekel</button>
             <script type="text/javascript">
             $('#$contactButton').click(function() {
-                  fbq('track', 'Contact');
+              fbq('track', 'Contact');
+            });
             </script>
           </div>
         </div>
@@ -68,7 +69,8 @@
                     id="contactButton">Érdekel</button>
             <script type="text/javascript">
             $('#$contactButton').click(function() {
-                  fbq('track', 'Contact');
+              fbq('track', 'Contact');
+            });
             </script>
           </div>
         </div>
@@ -102,7 +104,8 @@
                     id="contactButton">Érdekel</button>
             <script type="text/javascript">
             $('#$contactButton').click(function() {
-                  fbq('track', 'Contact');
+              fbq('track', 'Contact');
+            });
             </script>
           </div>
         </div>
