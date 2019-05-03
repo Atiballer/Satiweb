@@ -30,7 +30,12 @@
           <div class="pricing-action">
             <button class="button button-large button-rounded capitalize ls0"
                     style="border-radius: 23px;"
-                    @click="openModal()">Érdekel</button>
+                    @click="openModal()"
+                    id="contactButton">Érdekel</button>
+            <script type="text/javascript">
+            $('#$contactButton').click(function() {
+                  fbq('track', 'Contact');
+            </script>
           </div>
         </div>
       </div>
@@ -59,7 +64,12 @@
           <div class="pricing-action">
             <button class="button button-large button-rounded capitalize ls0"
                     style="border-radius: 23px;"
-                    @click="openModal()">Érdekel</button>
+                    @click="openModal()"
+                    id="contactButton">Érdekel</button>
+            <script type="text/javascript">
+            $('#$contactButton').click(function() {
+                  fbq('track', 'Contact');
+            </script>
           </div>
         </div>
       </div>
@@ -88,8 +98,12 @@
           <div class="pricing-action">
             <button class="button button-large button-rounded capitalize ls0"
                     style="border-radius: 23px;"
-                    @click="openModal()">Érdekel</button>
-
+                    @click="openModal()"
+                    id="contactButton">Érdekel</button>
+            <script type="text/javascript">
+            $('#$contactButton').click(function() {
+                  fbq('track', 'Contact');
+            </script>
           </div>
         </div>
       </div>
