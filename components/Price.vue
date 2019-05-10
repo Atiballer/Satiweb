@@ -12,7 +12,7 @@
             <h3>Bemutatkozó weboldal</h3>
           </div>
           <div class="pricing-price">
-            70.000 Ft <span class="price-tenure">Induló ártól</span>
+            80.000 Ft <span class="price-tenure">Induló ártól</span>
           </div>
           <div class="pricing-features">
             <ul>
@@ -42,7 +42,7 @@
             <h3>Egyedi céges weboldal</h3>
           </div>
           <div class="pricing-price">
-            90.000 Ft <span class="price-tenure">Induló ártól</span>
+            100.000 Ft <span class="price-tenure">Induló ártól</span>
           </div>
           <div class="pricing-features">
             <ul>
