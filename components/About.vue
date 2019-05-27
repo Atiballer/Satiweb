@@ -36,7 +36,7 @@
       <div class="col-md-4 col-sm-12"
            style="margin:auto; padding-right: 1.5rem">
         <div style="text-align:center">
-          <img src="~/assets/sati2.jpg"
+          <img src="~/assets/Sati.jpg"
                class="img-fluid rounded img-thumbnail"
                alt="Atiballer weboldalkészíés">
 
@@ -74,5 +74,8 @@ h5 {
   font-weight: 200;
   letter-spacing: 1.2px;
   padding-top: 0.5rem !important;
+}
+.img-thumbnail {
+  border-radius: 50% !important;
 }
 </style>
